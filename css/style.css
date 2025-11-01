@@ -1,0 +1,538 @@
+/* Styles par défaut (thème clair) */
+
+/*Defautl Version*/
+/* body{
+    margin-right: 150px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+} */
+
+/*1rst version*/
+/* body {
+    margin-right: 150px;
+    background: linear-gradient(to right, #1E90FF 0%, #0B0C2A 50%, #4B0082 100%);
+    color: #f5f5f5;
+    transition: background 0.6s ease, color 0.3s ease;
+} */
+
+/*2nd version*/
+body {
+  margin-right: 150px;
+  background: linear-gradient(135deg, #1E90FF 0%, #0B0C2A 50%, #4B0082 100%);
+  color: #f5f5f5;
+  transition: background 0.6s ease, color 0.3s ease;
+
+}
+
+/*3rd version*/
+/* body {
+  margin-right: 150px;
+  background: linear-gradient(to right,
+      #1E90FF,
+
+      #0B0C2A);
+  color: #f5f5f5;
+  transition: background 0.6s ease, color 0.3s ease;
+} */
+
+
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+/*4th version*/
+/* body {
+  margin-right: 150px;
+  background: linear-gradient(135deg,
+      #1E90FF 0%,   
+      #0B0C2A 50%,  
+      #C0A060 100%  
+  );
+  color: #f5f5f5;
+  transition: background 0.6s ease, color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* Panneau caché en haut à droite */
+#theme-panel {
+  position: fixed;
+  top: 12px;
+  right: 0;
+  width: 40px;
+  /* fermé */
+  height: 48px;
+  background: rgba(20, 20, 20, 0.65);
+  border-radius: 8px 0 0 8px;
+  overflow: hidden;
+  transition: width 0.35s ease, box-shadow 0.25s ease;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  opacity: 0.25;
+  transform: translateX(8px);
+}
+
+/* Effet discret par défaut (coin caché) */
+#theme-panel {
+  opacity: 0.25;
+  transform: translateX(8px);
+}
+
+#theme-panel:hover {
+  opacity: 1;
+  transform: translateX(0);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* Poignée avec les chevrons */
+#theme-handle {
+  width: 40px;
+  text-align: center;
+  color: #dcdcdc;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 4px;
+  transition: color 0.2s ease;
+}
+
+#theme-handle:hover {
+  color: #fff;
+}
+
+/* Contenu caché */
+#theme-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+/* État ouvert */
+#theme-panel.open {
+  width: 150px;
+  /* élargi */
+}
+
+#theme-panel.open #theme-content {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(20px);
+  z-index: 3000;
+}
+
+#toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Bouton circulaire */
+.circle-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #1E90FF, #C0A060);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.circle-btn:hover {
+  transform: scale(1.06);
+}
+
+/* Label dans le panneau */
+.panel-label {
+  font-size: 13px;
+  color: #f0f0f0;
+  white-space: nowrap;
+}
+
+/* Option : hotspot invisible plus large (pour déclencher hover si besoin) */
+#hotspot {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 56px;
+  pointer-events: none;
+  /* n'empêche pas de cliquer sur autres éléments */
+  z-index: 1500;
+}
+
+.panel-icon {
+  font-size: 20px;
+  color: #f0f0f0;
+  cursor: pointer;
+  /* curseur main au survol */
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.panel-icon:hover {
+  color: #FFD700;
+  /* couleur dorée au survol */
+  transform: scale(1.2);
+  /* léger zoom */
+}
+
+
+/* Style du bouton */
+#toggle-theme {
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#toggle-theme:hover {
+  background-color: #0056b3;
+}
+
+
+
+.dueldiskblue {
+  height: 325px;
+  margin-left: 75px;
+  -webkit-transform: rotate(-90deg);
+}
+
+.dueldiskdark {
+  height: 325px;
+  margin-left: 75px;
+  -webkit-transform: rotate(-90deg);
+}
+
+a.imag {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+a.imag:hover {
+  cursor: pointer;
+  z-index: 2;
+}
+
+a.imag span {
+  display: none;
+}
+
+a.imag:hover span {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: -155px;
+  left: -50px;
+}
+
+/* Set display to none for image*/
+/* #DisImg {
+    display: none;
+} */
+
+.resize_card {
+  margin-left: 200px;
+  /* margin-top: 150px; */
+  height: 475px;
+}
+
+.card {
+  font-family: 'Games Regular';
+}
+
+.monsterN {
+  color: #AD9068;
+}
+
+.monsterE {
+  color: orange;
+}
+
+.monsterR {
+  color: #3B74BF;
+}
+
+.monsterF {
+  color: #613673;
+}
+
+.monsterS {
+  color: #D9D5D2;
+}
+
+.monsterXYZ {
+  color: #1D1E26;
+}
+
+.monsterL {
+  color: #2D77A6;
+}
+
+.spell {
+  color: green;
+}
+
+.trap {
+  color: #882D60;
+}
+
+/* New elements */
+
+#intSound {
+  /* background-color: #3B74BF;
+    color: aliceblue; */
+  cursor: pointer;
+  /* background-color: black; */
+}
+
+/* =========================
+   Audio
+   ========================= */
+
+/* Barre compacte par défaut */
+.custom-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #222;
+  padding: 8px;
+  border-radius: 6px;
+  width: 340px;
+  /* largeur fixe au repos */
+  margin-top: 8px;
+}
+
+.custom-player button {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-player button:hover {
+  background: #45a049;
+}
+
+.custom-player input[type="range"] {
+  accent-color: #4CAF50;
+}
+
+#progress {
+  flex: 1;
+  min-width: 120px;
+}
+
+#volume {
+  width: 80px;
+}
+
+.audio-zone {
+  margin-bottom: 20px;
+}
+
+/* Conteneur du titre : caché au repos */
+.audio-title-wrapper {
+  display: none;
+  /* invisible par défaut */
+  max-width: 0;
+  /* aucune largeur */
+  overflow: hidden;
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+  margin-left: auto;
+  /* pousse le titre complètement à droite */
+}
+
+/* Quand la zone audio est fixée (lecture en cours) */
+.audio-zone.audioFixe .audio-title-wrapper {
+  display: block;
+  /* devient visible */
+  max-width: 200px;
+  /* largeur réservée */
+}
+
+/* Texte du titre */
+.audio-title {
+  display: inline-block;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Animation de défilement uniquement si trop long */
+.audio-title.scroll {
+  padding-left: 100%;
+  animation: scroll-title 12s linear infinite;
+}
+
+/* Classe utilitaire */
+.hidden {
+  display: none;
+}
+
+/* Barre fixée en haut */
+.audioFixe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  z-index: 1000;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Animation pour le titre */
+@keyframes scroll-title {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* =========================
+   Responsive adjustments
+   ========================= */
+@media screen and (max-width: 768px) {
+  body {
+    margin-right: 0;
+    /* éviter un décalage sur mobile */
+    font-size: 15px;
+  }
+
+  #theme-panel {
+    top: 8px;
+    width: 32px;
+    height: 40px;
+  }
+
+  #theme-panel.open {
+    width: 120px;
+  }
+
+  #theme-handle {
+    font-size: 14px;
+    padding: 6px 2px;
+  }
+
+  #theme-content {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .panel-icon {
+    font-size: 18px;
+  }
+
+  .panel-label {
+    font-size: 12px;
+  }
+
+  #toast {
+    bottom: 12px;
+    right: 12px;
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .custom-player {
+    width: 100%;
+    /* occupe toute la largeur sur mobile */
+    flex-wrap: wrap;
+  }
+
+  #progress {
+    min-width: 100px;
+  }
+
+  #volume {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 14px;
+    margin: 0;           /* supprime toutes les marges */
+    padding: 0 10px;     /* petit padding interne */
+    line-height: 1.5;
+    
+  }
+
+  main, section, article, .content, .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+  }
+
+  p, h1, h2, h3 {
+    max-width: 100% !important;
+    word-wrap: break-word;
+  }
+
+
+
+  #theme-panel {
+    width: 28px;
+    height: 36px;
+  }
+
+  #theme-panel.open {
+    width: 100px;
+  }
+
+  #theme-handle {
+    font-size: 12px;
+  }
+
+  .panel-icon {
+    font-size: 16px;
+  }
+
+  #toast {
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .custom-player {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .custom-player button {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+}

@@ -1,0 +1,4 @@
+/* Tous les contenus cachés partagent la même classe */
+.hidden-content {
+    display: none;
+}

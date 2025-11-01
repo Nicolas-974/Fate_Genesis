@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page_title">Introduction - Fate Genesis</title>
+
+    <!-- Feuilles de style existantes -->
+    <link rel="stylesheet" href="disclm/css/games-cufonfonts-webfont/style.css">
+    <link rel="stylesheet" href="disclm/css/style.css">
+    <link rel="stylesheet" href="disclm/css/style_for_img.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="common/favicon.ico" type="image/x-icon">
+</head>
+
+<body style="zoom: 100%;">
+
+    <div id="theme-panel" aria-expanded="false">
+        <div id="theme-handle" title="Ouvrir le panneau">««</div>
+        <div id="theme-content" role="region" aria-label="Panneau thème">
+
+            <span id="btn-cycle" class="panel-icon" title="Changer le thème">🎨</span>
+            <!-- Bouton traduire -->
+            <span id="toggle-lang" class="panel-icon" title="Traduire">🌐</span>
+
+        </div>
+    </div>
+
+    <!-- Bouton de bascule de langue -->
+
+    <header class="header center">
+        <h1 id="header_title" class="page-title"></h1>
+        <!-- <button id="toggle-theme" type="button" aria-label="Basculer thème">Basculer thème</button> -->
+    </header>
+
+    <main class="container">
+        <!-- Section Intro -->
+        <section class="intro">
+            <h2 id="intro_title" class="section-title"></h2>
+            <p id="intro_text"></p>
+
+            <p id="points_title"></p>
+            <ul class="bullet">
+                <!-- Lien dynamique Wikipedia -->
+                <li id="fanfiction"></li>
+                <li id="universe"></li>
+
+                <!-- Lien fixe Fanfiction.net -->
+                <li>
+                    <strong>Auteur original :</strong>
+                    <a id="author_link" href="https://www.fanfiction.net/u/381645/Cybertoy00" target="_blank"
+                        rel="noopener noreferrer">Cybertoy00</a>
+                    – publié sur
+                    <a href="https://www.fanfiction.net/" target="_blank" rel="noopener noreferrer">Fanfiction.net</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section Fonctionnalités -->
+        <section class="features">
+            <h2 id="features_title" class="section-title"></h2>
+
+            <p id="panel_features_text"></p>
+
+            <hr class="separator">
+
+            <div id="zone1" class="audio-zone">
+                <!-- Audio caché -->
+                <audio id="audioPlayer1" src="disclm/10 Seconds Timer with Music.mp3" type="audio/mpeg"></audio>
+
+                <!-- Lecteur personnalisé -->
+                <div class="custom-player">
+                    <button id="playPause">▶️</button>
+                    <input type="range" id="progress" value="0" step="1">
+                    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+                    <!-- Bloc titre ajouté -->
+                    <div class="audio-title-wrapper hidden">
+                        <span class="audio-title">10 Seconds Timer with Music</span>
+                    </div>
+                </div>
+            </div>
+
+            <p id="instruction"></p>
+            <p id="audio_note"></p>
+
+            <hr class="separator">
+
+            <p id="hover_text"></p>
+            <p>
+                <a class="imag card">
+                    <i>Test</i>
+                    <span>
+                        <img src="disclm/le-mot-test.jpg" alt="Illustration du mot Test" class="hover-image">
+                    </span>
+                </a>
+            </p>
+            <p id="hover_note"></p>
+
+            <hr class="separator">
+
+            <p id="hidden_content_text"></p>
+            <div id="DisImg1" class="hidden-content">
+                <img src="disclm/le-mot-test.jpg" alt="Image révélée après clic" class="revealed-image">
+            </div>
+            <button type="button" id="btnID1" onclick="showContent('DisImg1','btnID1')">
+                <span id="btn_show_image"></span>
+            </button>
+
+            <hr class="separator">
+        </section>
+
+        <!-- Section Lecture -->
+        <section class="start center">
+            <h2 id="start_title" class="section-title"></h2>
+            <p>
+                <a href="Chapter_01/Chapitre_01.html" class="start-btn" id="start_btn"></a>
+            </p>
+        </section>
+
+        <!-- Section Crédits -->
+        <section class="credits">
+            <h2 id="credits_title" class="section-title"></h2>
+            <p id="credits_text"></p>
+            <ul class="bullet">
+                <li><strong id="credits_author"></strong>
+                    <a href="https://www.fanfiction.net/u/381645/Cybertoy00" target="_blank"
+                        rel="noopener noreferrer">Cybertoy00</a>
+                </li>
+                <li><strong id="credits_link"></strong>
+                    <a href="https://www.fanfiction.net/s/11150281/1/Fate-Genesis" target="_blank"
+                        rel="noopener noreferrer">Fate Genesis</a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <h3 id="footer_title" class="section-title"></h3>
+        <p id="footer_text"></p>
+        <ul class="links">
+            <!-- Liens fixes -->
+            <li><a href="https://www.fanfiction.net/u/381645/Cybertoy00" target="_blank"
+                    rel="noopener noreferrer">Cybertoy00</a></li>
+            <li><a href="https://sonic.fandom.com/wiki/Sonic_Wiki_Zone" target="_blank" rel="noopener noreferrer">Sonic
+                    Wiki Zone</a></li>
+            <li><a href="https://typemoon.fandom.com/wiki/TYPE-MOON_Wiki" target="_blank" rel="noopener noreferrer">Type
+                    MOON Wiki</a></li>
+        </ul>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="disclm/js/widget.js"></script>
+    <script src="disclm/js/sound.js"></script>
+    <script src="disclm/js/audio.js"></script>
+</body>
+
+</html>

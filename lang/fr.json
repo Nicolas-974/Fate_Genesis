@@ -1,0 +1,32 @@
+{
+  "page_title": "Introduction - Fate Genesis",
+  "header_title": "Introduction",
+  "subtitle": "Information",
+
+  "intro_title": "Avant de commencer",
+  "intro_text": "Ceci est un projet personnel. Il s’agit d’une histoire adaptée pour être interactive lors de la lecture.",
+  "points_title": "Points importants :",
+  "fanfiction": "<strong>Fanfiction :</strong> Il s’agit d’une <a href='https://fr.wikipedia.org/wiki/Fanfiction' target='_blank'>fanfiction</a>.",
+  "universe": "<strong>Univers :</strong> Basée sur <a href='https://fr.wikipedia.org/wiki/Sonic_the_Hedgehog' target='_blank'>Sonic The Hedgehog</a> et <a href='https://fr.wikipedia.org/wiki/Fate/stay_night' target='_blank'>Fate/stay night</a>.",
+  "author": "Auteur original : L’œuvre originale est écrite par Cybertoy00 et publiée sur Fanfiction.net.",
+
+  "features_title": "Fonctionnalités interactives",
+  "panel_features_text": "Trois fonctions sont disponibles, situés en haut, à droite de la page : Un bouton \"««\" pour ouvrir un mini espace dédié pour accéder aux deux autres fonctions.🎨 permet de changer le thème visuel, et 🌐 bascule la langue entre français et anglais.",
+  "instruction": "Faites jouer l’audio ci-dessus, puis faites défiler la page.",
+  "audio_note": "La barre audio reste en haut (fixe). Certaines musiques peuvent se relancer en boucle. Mettez en pause pour reprendre leur position initiale.",
+  "hover_text": "Certains mots utilisent une police particulière. Survolez ce mot :",
+  "hover_note": "En survolant, une image apparaît pour situer un personnage ou un élément. N’hésitez pas à repasser dessus.",
+  "hidden_content_text": "Dernière fonction : afficher un contenu caché (image ou vidéo) en cliquant sur un bouton.",
+  "btn_show_image": "Afficher l’image",
+
+  "start_title": "Commencer la lecture",
+  "start_btn": "📖 Lire Fate Genesis",
+
+  "credits_title": "Remerciements et crédits",
+  "credits_text": "Merci d’avoir pris le temps de lire cette introduction. Je traduis l’œuvre en français pour la partager, mais les mérites reviennent à l’auteur original : Cybertoy00.",
+  "credits_author": "Nom de l’auteur : ",
+  "credits_link": "Lien de l’histoire : ",
+
+  "footer_title": "Disclaimer",
+  "footer_text": "Tous les médias que vous apercevrez ne m’appartiennent pas. Ils appartiennent respectivement à Sega et Type MOON."
+}

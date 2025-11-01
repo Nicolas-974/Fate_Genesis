@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Games Regular';
+    src: url('disclm/css/games-cufonfonts-webfont/games-regular.woff2') format('woff2'),
+        url('disclm/css/games-cufonfonts-webfont/games-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card {
+    font-family: 'Games Regular', sans-serif;
+}
+
+/* =========================
+   Variables de thème
+   ========================= */
+:root {
+    --bg-light: #ffffff;
+    --text-light: #000000;
+    --bg-dark: #121212;
+    --text-dark: #ffffff;
+    --primary: #2964D9;
+    --primary-hover: #1f4ca3;
+}
+
+/* =========================
+   Thèmes
+   ========================= */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+/* =========================
+   Layout global
+   ========================= */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+/* =========================
+   Header & Footer
+   ========================= */
+.header,
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary);
+    color: white;
+}
+
+.header a,
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.page-title {
+    margin: 10px 0;
+}
+
+/* =========================
+   Boutons
+   ========================= */
+#toggle-theme {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#toggle-theme:hover {
+    background-color: var(--primary-hover);
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background: var(--primary-hover);
+}
+
+button.hide-after-click {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button.hide-after-click:hover {
+    background: var(--primary-hover);
+}
+
+button.hide-after-click.clicked {
+    display: none;
+}
+
+/* =========================
+   Audio
+   ========================= */
+
+/* Barre compacte par défaut */
+.custom-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #222;
+    padding: 8px;
+    border-radius: 6px;
+    width: 400px;
+    /* largeur fixe au repos */
+    margin-top: 8px;
+}
+
+.custom-player button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.custom-player button:hover {
+    background: #45a049;
+}
+
+.custom-player input[type="range"] {
+    accent-color: #4CAF50;
+}
+
+#progress {
+    flex: 1;
+    min-width: 120px;
+}
+
+#volume {
+    width: 80px;
+}
+
+.audio-zone {
+    margin-bottom: 20px;
+}
+
+/* Conteneur du titre : caché au repos */
+.audio-title-wrapper {
+    display: none;
+    /* invisible par défaut */
+    max-width: 0;
+    /* aucune largeur */
+    overflow: hidden;
+    position: relative;
+    height: 24px;
+    flex-shrink: 0;
+    margin-left: auto;
+    /* pousse le titre complètement à droite */
+}
+
+/* Quand la zone audio est fixée (lecture en cours) */
+.audio-zone.audioFixe .audio-title-wrapper {
+    display: block;
+    /* devient visible */
+    max-width: 200px;
+    /* largeur réservée */
+}
+
+/* Texte du titre */
+.audio-title {
+    display: inline-block;
+    white-space: nowrap;
+    color: #fff;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* Animation de défilement uniquement si trop long */
+.audio-title.scroll {
+    padding-left: 100%;
+    animation: scroll-title 12s linear infinite;
+}
+
+/* Classe utilitaire */
+.hidden {
+    display: none;
+}
+
+/* Barre fixée en haut */
+.audioFixe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* =========================
+   Images & Hover
+   ========================= */
+.logo-info {
+    margin-top: 10px;
+    width: 10%;
+    height: auto;
+}
+
+a.imag {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+a.imag:hover {
+    cursor: pointer;
+    z-index: 2;
+}
+
+a.imag span {
+    display: none;
+}
+
+a.imag:hover span {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: -155px;
+    left: -50px;
+}
+
+.hover-image {
+    height: 200px;
+    margin-left: 100px;
+}
+
+/* =========================
+   Contenus cachés
+   ========================= */
+.hidden-content {
+    display: none;
+}
+
+.revealed-image {
+    height: 200px;
+    margin-left: 100px;
+}
+
+/* =========================
+   Divers
+   ========================= */
+.subtitle {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.section-title {
+    color: var(--primary);
+    margin-top: 30px;
+}
+
+.bullet {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 5px 0;
+}
+
+/* Liens par défaut (mode clair) */
+a {
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff6600; /* couleur de survol en clair */
+}
+
+/* Titres par défaut */
+.section-title {
+  color: var(--primary);
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+/* Mode sombre */
+body.dark-mode a {
+  color: #66aaff; /* bleu clair lisible sur fond sombre */
+}
+
+body.dark-mode a:hover {
+  color: #ffd700; /* doré au survol */
+}
+
+body.dark-mode .section-title {
+  color: #66aaff;
+}
+
+/* Panneau caché en haut à droite */
+#theme-panel {
+    position: fixed;
+    top: 12px;
+    right: 0;
+    width: 40px;
+    /* fermé */
+    height: 48px;
+    background: rgba(20, 20, 20, 0.65);
+    border-radius: 8px 0 0 8px;
+    overflow: hidden;
+    transition: width 0.35s ease, box-shadow 0.25s ease;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    opacity: 0.25;
+    transform: translateX(8px);
+}
+
+/* Effet discret par défaut (coin caché) */
+#theme-panel {
+    opacity: 0.25;
+    transform: translateX(8px);
+}
+
+#theme-panel:hover {
+    opacity: 1;
+    transform: translateX(0);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* Poignée avec les chevrons */
+#theme-handle {
+    width: 40px;
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    padding: 8px 4px;
+    transition: color 0.2s ease;
+}
+
+#theme-handle:hover {
+    color: #fff;
+}
+
+/* Contenu caché */
+#theme-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+
+/* État ouvert */
+#theme-panel.open {
+    width: 150px;
+    /* élargi */
+}
+
+#theme-panel.open #theme-content {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    transform: translateY(20px);
+    z-index: 3000;
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.panel-icon {
+    font-size: 20px;
+    color: #f0f0f0;
+    cursor: pointer;
+    /* curseur main au survol */
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.panel-icon:hover {
+    color: #FFD700;
+    /* couleur dorée au survol */
+    transform: scale(1.2);
+    /* léger zoom */
+}
+
+.panel-icon {
+    font-size: 18px;
+}
+
+.panel-icon {
+    font-size: 16px;
+}
+
+
+
+@keyframes scroll-title {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

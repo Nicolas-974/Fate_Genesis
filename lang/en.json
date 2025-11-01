@@ -1,0 +1,32 @@
+{
+  "page_title": "Introduction - Fate Genesis",
+  "header_title": "Introduction",
+  "subtitle": "Information",
+
+  "intro_title": "Before starting",
+  "intro_text": "This is a personal project. It is a story adapted to be interactive during reading.",
+  "points_title": "Key points:",
+  "fanfiction": "<strong>Fanfiction:</strong> This is a <a href='https://en.wikipedia.org/wiki/Fan_fiction' target='_blank'>fanfiction</a>.",
+  "universe": "<strong>Universe:</strong> Based on <a href='https://en.wikipedia.org/wiki/Sonic_the_Hedgehog' target='_blank'>Sonic The Hedgehog</a> and <a href='https://en.wikipedia.org/wiki/Fate/stay_night' target='_blank'>Fate/stay night</a>.",
+  "author": "Original author: The original work was written by Cybertoy00 and published on Fanfiction.net.",
+
+  "features_title": "Interactive features",
+  "panel_features_text": "Three functions are available at the top right of the page: A button \"««\" opens a mini space dedicated to accessing the other two functions.🎨 allows you to change the visual theme, and 🌐 switches the language between French and English.",
+  "instruction": "Play the audio above, then scroll down the page.",
+  "audio_note": "The audio bar stays at the top (sticky). Some tracks may loop automatically. Pause to return them to their initial position.",
+  "hover_text": "Some words use a special font. Hover over this word:",
+  "hover_note": "When hovering, an image appears to show a character or element. Feel free to hover again.",
+  "hidden_content_text": "Final feature: reveal hidden content (image or video) by clicking a button.",
+  "btn_show_image": "Show image",
+
+  "start_title": "Start reading",
+  "start_btn": "📖 Read Fate Genesis",
+
+  "credits_title": "Acknowledgements and credits",
+  "credits_text": "Thank you for taking the time to read this introduction. I translated the work into French to share it, but all credit goes to the original author: Cybertoy00.",
+  "credits_author": "Author’s name: ",
+  "credits_link": "Story link: ",
+
+  "footer_title": "Disclaimer",
+  "footer_text": "All media you see here do not belong to me. They belong respectively to Sega and Type MOON."
+}
