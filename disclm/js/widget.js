@@ -167,7 +167,7 @@ document.querySelectorAll(".audio-zone").forEach((zone) => {
 // Fonction pour charger un fichier JSON de traduction
 async function loadLang(lang) {
   try {
-    const response = await fetch(`./../lang/${lang}.json`);
+    const response = await fetch(`./lang/${lang}.json`);
     const translations = await response.json();
 
     for (const key in translations) {
