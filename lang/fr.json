@@ -8,7 +8,9 @@
   "points_title": "Points importants :",
   "fanfiction": "<strong>Fanfiction :</strong> Il s’agit d’une <a href='https://fr.wikipedia.org/wiki/Fanfiction' target='_blank'>fanfiction</a>.",
   "universe": "<strong>Univers :</strong> Basée sur <a href='https://fr.wikipedia.org/wiki/Sonic_the_Hedgehog' target='_blank'>Sonic The Hedgehog</a> et <a href='https://fr.wikipedia.org/wiki/Fate/stay_night' target='_blank'>Fate/stay night</a>.",
-  "author": "Auteur original : L’œuvre originale est écrite par Cybertoy00 et publiée sur Fanfiction.net.",
+  "author": "Auteur original : ",
+  "author2b": "L’œuvre originale est écrite par ",
+  "author2c": "- publié sur",
 
   "features_title": "Fonctionnalités interactives",
   "panel_features_text": "Trois fonctions sont disponibles, situés en haut, à droite de la page : Un bouton \"««\" pour ouvrir un mini espace dédié pour accéder aux deux autres fonctions.🎨 permet de changer le thème visuel, et 🌐 bascule la langue entre français et anglais.",
