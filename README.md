@@ -55,7 +55,7 @@ Live version:
 
 - Original Author: [Cybertoy00](https://www.fanfiction.net/u/381645/Cybertoy00)
 
-- Fanfiction: [Fate Genesis](https://nicolas-974.github.io/Fate_Genesis/) on [Fanfiction.net](https://www.fanfiction.net/)
+- Fanfiction: [Fate Genesis](https://www.fanfiction.net/s/11150281/1/Fate-Genesis) on [Fanfiction.net](https://www.fanfiction.net/)
 
 - Universes: TYPE-MOON (Fate/stay night), Sonic the Hedgehog (SEGA)
 
