@@ -57,7 +57,7 @@ Live version:
 
 - Fanfiction: [Fate Genesis](https://nicolas-974.github.io/Fate_Genesis/) on [Fanfiction.net](https://www.fanfiction.net/)
 
-- Universes: TYPE-MOON (Fate/stay night), Sonic the Hedgehog (fanworks)
+- Universes: TYPE-MOON (Fate/stay night), Sonic the Hedgehog (SEGA)
 
 ---
 
