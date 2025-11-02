@@ -18,7 +18,7 @@ The goal is to make the story more immersive through a modern web interface, mul
 ## 📂 Project Structure
 .
 ├── Chapter_01<br>
-│   └── Chapitre_01.html
+│   └── Chapitre_01.html<br>
 ├── Chapter_XX
 ├── README.md
 ├── assets
