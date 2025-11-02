@@ -47,9 +47,7 @@ Live version:
    ```bash
    git clone https://github.com/Nicolas-974/Fate_Genesis.git
 
-2. Open index.html in your browser.
-
-3. Use a local server such as Live Server (VS Code) for testing.
+2. Use a local server such as Live Server (VS Code) for testing.
 
 ---
 
