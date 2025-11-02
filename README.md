@@ -19,18 +19,17 @@ The goal is to make the story more immersive through a modern web interface, mul
 .
 ├── Chapter_01<br>
 │   └── Chapitre_01.html<br>
-├── Chapter_XX
-├── README.md
-├── assets
-│   ├── audio
-│   └── img
-├── chapter
+├── Chapter_XX<br>
+├── assets<br>
+│   ├── audio<br>
+│   └── img<br>
+├── chapter<br>
 ├── css
 ├── disclm
-├── index.html
 ├── js
 └── lang
-
+├── index.html
+├── README.md
 
 ---
 
