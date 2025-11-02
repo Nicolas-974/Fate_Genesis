@@ -49,7 +49,7 @@ Live version:
 
 2. Open index.html in your browser.
 
-3. (Optional) Use a local server such as Live Server (VS Code) for testing.
+3. Use a local server such as Live Server (VS Code) for testing.
 
 ---
 
