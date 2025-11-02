@@ -51,7 +51,9 @@ Live version:
 
 ---
 
-## 🙏 Credits- Original Author: [Cybertoy00](https://www.fanfiction.net/u/381645/Cybertoy00)
+## 🙏 Credits
+
+- Original Author: [Cybertoy00](https://www.fanfiction.net/u/381645/Cybertoy00)
 
 - Fanfiction: [Fate Genesis](https://nicolas-974.github.io/Fate_Genesis/) on [Fanfiction.net](https://www.fanfiction.net/)
 
