@@ -246,6 +246,10 @@ a.imag:hover span {
   left: -50px;
 }
 
+a:visited {
+  color:#1E90FF;
+}
+
 /* Set display to none for image*/
 /* #DisImg {
     display: none;

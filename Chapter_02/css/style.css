@@ -1,0 +1,131 @@
+/* Styles par défaut (thème clair) */
+
+body{
+    margin-right: 150px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Thème sombre */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Style du bouton */
+#toggle-theme {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#toggle-theme:hover {
+    background-color: #0056b3;
+}
+
+
+
+.dueldiskblue{
+    height: 325px;
+    margin-left: 75px;
+    -webkit-transform: rotate(-90deg);
+}
+
+.dueldiskdark{
+    height: 325px;
+    margin-left: 75px;
+    -webkit-transform: rotate(-90deg);
+}
+
+a.imag{
+    position: relative;
+    z-index: 1;
+    text-decoration:none;
+}
+
+a.imag:hover{
+    cursor: pointer;
+    z-index: 2;
+}
+
+a.imag span{
+    display: none;
+}
+
+a.imag:hover span{
+    display:block;
+    position:absolute;
+    z-index: 3;
+    top: -155px;
+    left: -50px;
+}
+
+/* Set display to none for image*/
+/* #DisImg {
+    display: none;
+} */
+
+.resize_card{
+    margin-left: 200px;
+    /* margin-top: 150px; */
+    height: 475px;
+}
+
+.card{
+    font-family: 'Games Regular';
+}
+
+.monsterN{
+    color: #AD9068;
+}
+
+.monsterE{
+    color: orange;
+}
+
+.monsterR{
+    color: #3B74BF;
+}
+
+.monsterF{
+    color: #613673;
+}
+
+.monsterS{
+    color: #D9D5D2;
+}
+
+.monsterXYZ{
+    color: #1D1E26;
+}
+
+.monsterL{
+    color: #2D77A6;
+}
+
+.spell{
+    color: green;
+}
+
+.trap{
+    color: #882D60;
+}
+
+/* New elements */
+
+#intSound{
+    /* background-color: #3B74BF;
+    color: aliceblue; */
+    cursor: pointer;
+    /* background-color: black; */
+}
+
+.audioFixe{
+    top: 0;
+    position: sticky;
+}
