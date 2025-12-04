@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/games-cufonfonts-webfont/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style_for_img.css">
+
+    <script src="../js/widget.js"></script>
+    <script src="../js/sound.js"></script>
+
+    <script src="../js/i18next.min.js" defer></script>
+
+    <script src="../js/i18n.js" defer></script>
+
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+    <title>Chapitre 03</title>
+</head>
+
+<body style="zoom: 150%;">
+
+    <div id="theme-panel" aria-expanded="false">
+        <div id="theme-handle" title="Ouvrir le panneau">««</div>
+        <div id="theme-content" role="region" aria-label="Panneau thème">
+            <span id="btn-cycle" class="panel-icon" title="Changer le thème">🎨</span>
+            <span id="btn-translate" class="panel-icon" title="Traduire">🌐</span>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
+    <center>
+        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+            <span data-i18n="chapter_list"></span><br>
+
+            <select id="chap_select_debut" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            </select>
+        </div>
+    </center>
+
+    <p>
+        <center>
+            <h2><u data-i18n="project_title"></u></h2>
+        </center>
+    </p>
+
+    <p>
+        <center><u data-i18n="chapter_title"></u></center>
+    </p>
+
+    <p>
+        <span data-i18n="p1a"></span>
+        <a class="imag card">
+            <i data-i18n="sonic_name"></i>
+            <span><img alt="Sonic" src="../assets/img/SXSG_Sonic.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p1b"></span>
+        <a class="imag card">
+            <i data-i18n="tails_name"></i>
+            <span><img alt="Tails" src="../assets/img/SRCTails.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p1c"></span>
+        <a class="imag card">
+            <i data-i18n="illya_name"></i>
+            <span><img alt="Illya" src="../assets/img/Illyasviel_von_Einzbern_(Fate_Stay_Knight)_Render_01.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p1d"></span>
+    </p>
+
+    <p><b data-i18n="berserker_roar"></b></p>
+
+    <div id="zone1" class="audio-zone">
+        <audio id="audioPlayer1" src="../assets/audio/GUN Mobile - Sonic Adventure 2 [OST].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause1">▶️</button>
+            <input type="range" id="progress1" value="0" step="1">
+            <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title1"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <span data-i18n="p2a"></span>
+        <a class="imag card">
+            <i data-i18n="berserker_name"></i>
+            <span><img alt="Berserker" src="../assets/img/Berserker.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p2b"></span>
+    </p>
+
+    <p><b data-i18n="sfx_bam"></b></p>
+
+    <p data-i18n="p3"></p>
+
+    <p>
+        <b data-i18n="tails1"></b><br>
+        <span data-i18n="tails1b"></span>
+    </p>
+
+    <p><b data-i18n="sonic1"></b></p>
+
+    <p data-i18n="p4"></p>
+
+    <p>
+        <span data-i18n="p5a"></span>
+        <a class="imag card">
+            <i data-i18n="lancer_name"></i>
+            <span><img alt="Lancer" src="../assets/img/LancerCuChuGOStage1.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p5b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="illya1"></b><br>
+        <span data-i18n="illya1b"></span>
+    </p>
+
+    <p><b data-i18n="illya2"></b></p>
+
+    <p>
+        <i data-i18n="sonic_thought1"></i><br>
+        <span data-i18n="sonic_thought1b"></span>
+    </p>
+
+    <p data-i18n="p6"></p>
+
+    <p data-i18n="p7"></p>
+
+    <p>
+        <b data-i18n="tails2"></b><br>
+        <span data-i18n="tails2b"></span>
+    </p>
+
+    <p><b data-i18n="tails3"></b></p>
+
+    <p data-i18n="p8"></p>
+
+    <p>
+        <b data-i18n="illya3"></b><br>
+        <span data-i18n="illya3b"></span>
+    </p>
+
+    <p><b data-i18n="illya4"></b></p>
+
+    <p data-i18n="p9"></p>
+
+    <p data-i18n="p10"></p>
+
+    <p><b data-i18n="sonic2"></b></p>
+
+    <p data-i18n="p11"></p>
+
+    <p><b data-i18n="sonic3"></b></p>
+
+    <p data-i18n="p12"></p>
+
+    <p><b data-i18n="illya5"></b></p>
+
+    <p><b data-i18n="sonic4"></b></p>
+
+    <p data-i18n="p13"></p>
+
+    <p><b data-i18n="illya6"></b></p>
+
+    <p>
+        <b data-i18n="sonic5"></b><br>
+        <span data-i18n="sonic5b"></span>
+    </p>
+
+    <p><b data-i18n="sonic6"></b></p>
+
+    <p data-i18n="p14"></p>
+
+    <p data-i18n="p15"></p>
+
+    <p><b data-i18n="illya7"></b></p>
+
+    <p data-i18n="p16"></p>
+
+    <p><b data-i18n="illya8"></b></p>
+
+    <p data-i18n="p17"></p>
+
+    <p><b data-i18n="illya9"></b><br><span data-i18n="illya9b"></span></p>
+
+    <div id="zone2" class="audio-zone">
+        <audio id="audioPlayer2" src="../assets/audio/Escape From the City (Instrumental) - Sonic Adventure 2 [OST].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause2">▶️</button>
+            <input type="range" id="progress2" value="0" step="1">
+            <input type="range" id="volume2" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title2"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p18"></p>
+
+    <p data-i18n="p19"></p>
+
+    <p>
+        <b data-i18n="tails4"></b><br>
+        <span data-i18n="tails4b"></span>
+    </p>
+
+    <p data-i18n="p20"></p>
+
+    <p><b data-i18n="sonic7"></b></p>
+
+    <p data-i18n="p21"></p>
+
+    <p><b data-i18n="tails5"></b></p>
+
+    <p><b data-i18n="sonic8"></b><br><span data-i18n="sonic8b"></span></p>
+
+    <p data-i18n="p22"></p>
+
+    <p><i data-i18n="berserker_thought1"></i></p>
+
+    <p><i data-i18n="berserker_thought2"></i></p>
+
+    <p><i data-i18n="berserker_thought3"></i></p>
+
+    <hr>
+
+    <div id="zone3" class="audio-zone">
+        <audio id="audioPlayer3" src="../assets/audio/OST Fate Stay Night - Ie nu Kizuato.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause3">▶️</button>
+            <input type="range" id="progress3" value="0" step="1">
+            <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title3"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <span data-i18n="p23a"></span>
+        <a class="imag card">
+            <i data-i18n="shirou_name"></i>
+            <span><img alt="Shirou" src="../assets/img/shirou_emiya__render__7__by_wtfbooomsh_dfv8y3m-fullview.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p23b"></span>
+        <a class="imag card">
+            <i data-i18n="saber_name"></i>
+            <span><img alt="Saber" src="../assets/img/saber.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p23c"></span>
+    </p>
+
+    <p data-i18n="p24"></p>
+    <p data-i18n="p25"></p>
+
+    <p><b data-i18n="saber1"></b></p>
+    <p><b data-i18n="shirou1"></b></p>
+
+    <p>
+        <b data-i18n="saber2a"></b>
+        <a class="imag card">
+            <i data-i18n="eggman_name"></i>
+            <span><img alt="Dr. Eggman" src="../assets/img/SDT_DoctorEggmanRender.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <b data-i18n="saber2b"></b><br>
+        <span data-i18n="saber2c"></span>
+    </p>
+
+    <p><b data-i18n="saber3"></b></p>
+
+    <p data-i18n="p26"></p>
+
+    <p>
+        <b data-i18n="shirou2"></b><br>
+        <span data-i18n="shirou2b"></span>
+    </p>
+
+    <p data-i18n="p27"></p>
+    <p><b data-i18n="saber4"></b></p>
+    <p data-i18n="p28"></p>
+
+    <p>
+        <b data-i18n="tails6"></b><br>
+        <span data-i18n="tails6b"></span>
+    </p>
+    <p><b data-i18n="tails7"></b></p>
+
+    <p data-i18n="p29"></p>
+    <p><b data-i18n="shirou3"></b></p>
+
+    <p>
+        <b data-i18n="saber5"></b><br>
+        <span data-i18n="saber5b"></span>
+    </p>
+    <p><b data-i18n="saber6"></b></p>
+
+    <p>
+        <b data-i18n="tails8"></b><br>
+        <span data-i18n="tails8b"></span>
+    </p>
+    <p><b data-i18n="tails9"></b></p>
+
+    <p><i><span data-i18n="shirou_thought1"></span></i></p>
+
+    <p data-i18n="p30"></p>
+
+    <p>
+        <b data-i18n="shirou4"></b><br>
+        <span data-i18n="shirou4b"></span>
+    </p>
+
+    <p data-i18n="p31"></p>
+
+    <hr>
+
+    <p data-i18n="p32"></p>
+    <p data-i18n="p33"></p>
+    <p data-i18n="p34"></p>
+    <p data-i18n="p35"></p>
+    <p data-i18n="p36"></p>
+
+    <p>
+        <b data-i18n="sonic9"></b><br>
+        <span data-i18n="sonic9b"></span>
+    </p>
+
+    <p data-i18n="p37"></p>
+    <p><b data-i18n="sonic10"></b></p>
+
+    <p data-i18n="p38"></p>
+    <p><b data-i18n="sonic11"></b></p>
+
+    <p>
+        <b data-i18n="tails10"></b><br>
+        <span data-i18n="tails10b"></span>
+    </p>
+
+    <p><b data-i18n="sonic12"></b></p>
+
+    <p data-i18n="p39"></p>
+
+    <hr>
+
+    <p data-i18n="p40"></p>
+    <p data-i18n="p41"></p>
+
+    <p>
+        <b data-i18n="shirou5"></b><br>
+        <span data-i18n="shirou5b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="saber7"></b><br>
+        <span data-i18n="saber7b"></span>
+    </p>
+    <p><b data-i18n="saber8"></b></p>
+
+    <p data-i18n="p42"></p>
+
+    <p><b data-i18n="saber9"></b></p>
+    <p data-i18n="p43"></p>
+    <p><b data-i18n="shirou6"></b></p>
+    <p data-i18n="p44"></p>
+    <p><b data-i18n="saber10"></b></p>
+
+    <p data-i18n="p45"></p>
+
+    <p>
+        <b data-i18n="sonic13"></b><br>
+        <span data-i18n="sonic13b"></span>
+    </p>
+
+    <p data-i18n="p46"></p>
+    <p><b data-i18n="tails11"></b></p>
+
+    <p data-i18n="p47"></p>
+    <p data-i18n="p48"></p>
+
+    <p>
+        <b data-i18n="tails12"></b><br>
+        <span data-i18n="tails12b"></span>
+    </p>
+    <p><b data-i18n="tails13"></b></p>
+
+    <p>
+        <b data-i18n="sonic14"></b><br>
+        <span data-i18n="sonic14b"></span>
+    </p>
+
+    <p data-i18n="p49"></p>
+    <p data-i18n="p50"></p>
+    <p><b data-i18n="sfx_pwash"></b></p>
+    <p data-i18n="p51"></p>
+
+    <p>
+        <b data-i18n="saber11"></b><br>
+        <span data-i18n="saber11b"></span>
+    </p>
+
+    <div id="zone4" class="audio-zone">
+        <audio id="audioPlayer4" src="../assets/audio/FateStay Night Unlimited Blade Works - Saber Vs Berserker Theme.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause4">▶️</button>
+            <input type="range" id="progress4" value="0" step="1">
+            <input type="range" id="volume4" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title4"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p52"></p>
+    <p data-i18n="p53"></p>
+
+    <p>
+        <b data-i18n="shirou7"></b><br>
+        <span data-i18n="shirou7b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="tails14"></b><br>
+        <span data-i18n="tails14b"></span>
+    </p>
+    <p><b data-i18n="tails15"></b></p>
+
+    <p data-i18n="p54"></p>
+    <p><b data-i18n="shirou8"></b></p>
+
+    <p data-i18n="p55"></p>
+    <p data-i18n="p56"></p>
+    <p data-i18n="p57"></p>
+    <p data-i18n="p58"></p>
+    <p data-i18n="p59"></p>
+    <p data-i18n="p60"></p>
+    <p data-i18n="p61"></p>
+    <p data-i18n="p62"></p>
+    <p data-i18n="p63"></p>
+    <p data-i18n="p64"></p>
+    <p data-i18n="p65"></p>
+    <p data-i18n="p66"></p>
+    <p data-i18n="p67"></p>
+
+    <p>
+        <b data-i18n="sonic15"></b><br>
+        <span data-i18n="sonic15b"></span>
+    </p>
+    <p><b data-i18n="sonic16"></b></p>
+
+    <p>
+        <b data-i18n="saber12"></b><br>
+        <span data-i18n="saber12b"></span>
+    </p>
+    <p><b data-i18n="saber13"></b></p>
+
+    <p>
+        <b data-i18n="sonic17"></b><br>
+        <span data-i18n="sonic17b"></span>
+    </p>
+    <p><b data-i18n="sonic18"></b></p>
+
+    <p>
+        <b data-i18n="saber14"></b><br>
+        <span data-i18n="saber14b"></span>
+    </p>
+    <p><b data-i18n="saber15"></b></p>
+
+    <p>
+        <b data-i18n="sonic19"></b><br>
+        <span data-i18n="sonic19b"></span>
+    </p>
+    <p><b data-i18n="sonic20"></b></p>
+
+    <p data-i18n="p68"></p>
+
+    <p><b data-i18n="illya10"></b></p>
+    <p data-i18n="p69"></p>
+
+    <p>
+        <b data-i18n="illya11"></b><br>
+        <span data-i18n="illya11b"></span>
+    </p>
+    <p><b data-i18n="illya12"></b></p>
+
+    <p>
+        <i data-i18n="shirou_thought2"></i><br>
+        <span data-i18n="shirou_thought2b"></span>
+    </p>
+
+    <p data-i18n="p70"></p>
+    <p data-i18n="p71"></p>
+    <p data-i18n="p72"></p>
+    <p data-i18n="p73"></p>
+    <p data-i18n="p74"></p>
+    <p data-i18n="p75"></p>
+    <p data-i18n="p76"></p>
+
+    <p>
+        <i data-i18n="illya_thought1"></i><br>
+        <span data-i18n="illya_thought1b"></span>
+    </p>
+    
+    <p>
+        <i data-i18n="illya_thought2"></i>
+        <a class="imag card">
+            <i data-i18n="kiritsugu_name"></i>
+            <span><img alt="Kiritsugu" src="../assets/img/Emiya_kiritsugu.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <i data-i18n="illya_thought3"></i>
+    </p>
+
+    <p><i data-i18n="illya_thought4"></i></p>
+
+    <p data-i18n="p77"></p>
+
+    <p>
+        <b data-i18n="tails16"></b><br>
+        <span data-i18n="tails16b"></span>
+    </p>
+
+    <p data-i18n="p78"></p>
+    <p data-i18n="p79"></p>
+
+    <hr>
+
+    <p data-i18n="p83"></p>
+
+    <p data-i18n="p84a"></p>
+
+    <p>
+        <span data-i18n="p84b"></span>
+        <a class="imag card">
+            <i data-i18n="rin_name"></i>
+            <span><img alt="Rin" src="../assets/img/rin2.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p84c"></span>
+        <a class="imag card">
+            <i data-i18n="archer_name"></i>
+            <span><img alt="Archer" src="../assets/img/archer.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p84d"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin1"></b><br>
+        <span data-i18n="rin1b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="archer1"></b><br>
+        <span data-i18n="archer1b"></span>
+    </p>
+    <p><b data-i18n="archer2"></b></p>
+
+    <p data-i18n="p85"></p>
+    <p data-i18n="p86"></p>
+
+    <p data-i18n="archer3"></p>
+
+    <p>
+        <b data-i18n="archer4"></b><br>
+        <span data-i18n="archer4b"></span>
+    </p>
+
+    <p><i><span data-i18n="archer_thought1"></span></i></p>
+
+    <p data-i18n="p87"></p>
+
+    <p><b data-i18n="rin2"></b></p>
+    <p><i><span data-i18n="rin_thought1"></span></i></p>
+
+    <p>
+        <b data-i18n="archer5"></b><br>
+        <span data-i18n="archer5b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="archer6"></b><br>
+        <span data-i18n="archer6b"></span>
+    </p>
+
+    <p><b data-i18n="archer7"></b></p>
+
+    <p data-i18n="p88"></p>
+    <p data-i18n="p89"></p>
+
+    <div id="zone5" class="audio-zone">
+        <audio id="audioPlayer5" src="../assets/audio/Sonic Adventure 2 OST - Kick The Rock! Wild Canyon (Instrumental).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause5">▶️</button>
+            <input type="range" id="progress5" value="0" step="1">
+            <input type="range" id="volume5" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title5"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <a class="imag card">
+            <i data-i18n="knuckles_name"></i>
+            <span><img alt="Knuckles" src="../assets/img/Frontiers_Knuckles.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p90"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin3"></b><br>
+        <span data-i18n="rin3b"></span>
+    </p>
+
+    <p>
+        <i data-i18n="archer_thought2"></i><br>
+        <span data-i18n="archer_thought2b"></span>
+    </p>
+
+    <p data-i18n="p91"></p>
+
+    <p><b data-i18n="sfx_crac"></b></p>
+
+    <p data-i18n="p92"></p>
+
+    <p>
+        <b data-i18n="rin4"></b><br>
+        <span data-i18n="rin4b"></span>
+    </p>
+    <p><b data-i18n="rin5"></b></p>
+
+    <p data-i18n="p93"></p>
+    <p><b data-i18n="knuckles1"></b></p>
+
+    <p data-i18n="p94"></p>
+    <p><i><span data-i18n="archer_thought3"></span></i></p>
+    <p data-i18n="p95"></p>
+
+    <p>
+        <b data-i18n="rin6"></b><br>
+        <span data-i18n="rin6b"></span>
+    </p>
+    <p><b data-i18n="rin7"></b></p>
+
+    <p>
+        <span data-i18n="p96"></span>
+        <a class="imag card">
+            <i data-i18n="caster_name"></i>
+            <span><img alt="Caster" src="../assets/img/caster.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p96b"></span>
+    </p>
+
+    <p>
+        <i data-i18n="caster_flashback1"></i><br>
+        <span data-i18n="caster_flashback1b"></span>
+    </p>
+
+    <p data-i18n="p97"></p>
+    <p><i><span data-i18n="knuckles_flashback1"></span></i></p>
+
+    <p>
+        <i data-i18n="caster_flashback2"></i><br>
+        <span data-i18n="caster_flashback2b"></span>
+    </p>
+
+    <p>
+        <i data-i18n="caster_flashback3"></i><br>
+        <span data-i18n="caster_flashback3b"></span>
+    </p>
+
+    <p><i><span data-i18n="caster_flashback4"></span></i></p>
+
+    <p data-i18n="p98"></p>
+    <p><i><span data-i18n="knuckles_flashback2"></span></i></p>
+    <p><i><span data-i18n="caster_flashback5"></span></i></p>
+
+    <p data-i18n="p99"></p>
+    <p><b data-i18n="knuckles2"></b></p>
+
+    <p data-i18n="p100"></p>
+    <p><i><span data-i18n="rin_thought2"></span></i></p>
+
+    <p data-i18n="p101"></p>
+    <p><i><span data-i18n="rin_thought3"></span></i></p>
+
+    <p data-i18n="p102"></p>
+
+    <p>
+        <i data-i18n="archer_thought4"></i><br>
+        <span data-i18n="archer_thought4b"></span>
+    </p>
+
+    <p data-i18n="p103"></p>
+    <p><i><span data-i18n="rin_thought4"></span></i></p>
+
+    <p data-i18n="p104"></p>
+
+    <hr>
+
+    <p>
+        <i data-i18n="caster_thought1"></i><br>
+        <span data-i18n="caster_thought1b"></span>
+    </p>
+    <p><i><span data-i18n="caster_thought2"></span></i></p>
+
+    <p data-i18n="p105"></p>
+    <p data-i18n="p106"></p>
+
+    <p>
+        <i data-i18n="caster_thought3"></i><br>
+        <span data-i18n="caster_thought3b"></span>
+    </p>
+
+    <p data-i18n="p107"></p>
+
+    <p>
+        <i data-i18n="caster_thought4"></i><br>
+        <span data-i18n="caster_thought4b"></span>
+    </p>
+
+    <hr>
+
+    <p data-i18n="p108"></p>
+
+    <p>
+        <i data-i18n="archer_thought5"></i><br>
+        <span data-i18n="archer_thought5b"></span>
+    </p>
+
+    <p data-i18n="p109"></p>
+    <p><i><span data-i18n="archer_thought6"></span></i></p>
+
+    <p data-i18n="p110"></p>
+    <p data-i18n="p111"></p>
+    <p data-i18n="p112"></p>
+
+    <p><b data-i18n="knuckles3"></b></p>
+
+    <p data-i18n="p113"></p>
+
+    <p>
+        <b data-i18n="rin8"></b><br>
+        <span data-i18n="rin8b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="archer8"></b><br>
+        <span data-i18n="archer8b"></span>
+    </p>
+
+    <p data-i18n="p114"></p>
+
+    <p><b data-i18n="archer9"></b></p>
+    <p data-i18n="p115"></p>
+
+    <p><b data-i18n="rin9"></b></p>
+    <p data-i18n="p116"></p>
+
+    <hr>
+
+    <p>
+        <i data-i18n="shirou_thought3"></i><br>
+        <span data-i18n="shirou_thought3b"></span>
+    </p>
+
+    <p data-i18n="p117"></p>
+
+    <p>
+        <b data-i18n="tails17"></b><br>
+        <span data-i18n="tails17b"></span>
+    </p>
+    <p><b data-i18n="tails18"></b></p>
+
+    <p>
+        <b data-i18n="shirou9"></b><br>
+        <span data-i18n="shirou9b"></span>
+    </p>
+
+    <p><b data-i18n="tails19"></b></p>
+
+    <p data-i18n="p118"></p>
+    <p data-i18n="p119"></p>
+
+    <p>
+        <b data-i18n="tails20"></b><br>
+        <span data-i18n="tails20b"></span>
+    </p>
+    <p><b data-i18n="tails21"></b></p>
+
+    <p data-i18n="p120"></p>
+    <p data-i18n="p121"></p>
+
+    <p>
+        <i data-i18n="shirou_thought4"></i><br>
+        <span data-i18n="shirou_thought4b"></span>
+    </p>
+    <p><i data-i18n="shirou_thought5"></i></p>
+    <p><i data-i18n="shirou_thought6"></i></p>
+
+    <p data-i18n="p122"></p>
+    <p data-i18n="p123"></p>
+    <p><i><b data-i18n="sonic_flashback1"></b></i></p>
+
+    <p data-i18n="p124"></p>
+    <p data-i18n="p125"></p>
+    <p data-i18n="p126"></p>
+
+    <div id="zone6" class="audio-zone">
+        <audio id="audioPlayer6" src="../assets/audio/Fatestay night [Unlimited Blade Works] OST - EMIYA.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause6">▶️</button>
+            <input type="range" id="progress6" value="0" step="1">
+            <input type="range" id="volume6" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title6"></span>
+            </div>
+        </div>
+    </div>
+
+    <p><b data-i18n="shirou_spell1"></b></p>
+
+    <p data-i18n="p127"></p>
+
+    <p>
+        <b data-i18n="tails22"></b><br>
+        <span data-i18n="tails22b"></span>
+    </p>
+
+    <p data-i18n="p128"></p>
+
+    <p>
+        <i data-i18n="shirou_thought7"></i><br>
+        <span data-i18n="shirou_thought7b"></span>
+    </p>
+    <p><i data-i18n="shirou_thought8"></i></p>
+
+    <p data-i18n="p129"></p>
+    <p data-i18n="p130"></p>
+    <p data-i18n="p131"></p>
+    <p data-i18n="p132"></p>
+    <p data-i18n="p133"></p>
+    <p data-i18n="p134"></p>
+
+    <p>
+        <b data-i18n="sonic21"></b><br>
+        <span data-i18n="sonic21b"></span>
+    </p>
+
+    <p data-i18n="p135"></p>
+    <p data-i18n="p136"></p>
+    <p data-i18n="p137"></p>
+    <p data-i18n="p138"></p>
+    <p data-i18n="p139"></p>
+
+    <p>
+        <b data-i18n="sonic22"></b><br>
+        <span data-i18n="sonic22b"></span>
+    </p>
+    <p><b data-i18n="sonic23"></b></p>
+
+    <p data-i18n="p140"></p>
+    <p><b data-i18n="illya13"></b></p>
+
+    <p data-i18n="p141"></p>
+    <p data-i18n="p142"></p>
+
+    <p>
+        <b data-i18n="sonic24"></b><br>
+        <span data-i18n="sonic24b"></span>
+    </p>
+
+    <p data-i18n="p143"></p>
+    <p data-i18n="p144"></p>
+    <p data-i18n="p145"></p>
+
+    <p>
+        <b data-i18n="sonic25"></b><br>
+        <span data-i18n="sonic25b"></span>
+    </p>
+
+    <p data-i18n="p146"></p>
+    <p><b data-i18n="saber16"></b></p>
+
+    <p data-i18n="p147"></p>
+
+    <p>
+        <b data-i18n="tails23"></b><br>
+        <span data-i18n="tails23b"></span>
+    </p>
+    <p><b data-i18n="tails24"></b></p>
+
+    <p>
+        <b data-i18n="saber17"></b><br>
+        <span data-i18n="saber17b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="tails25"></b><br>
+        <span data-i18n="tails25b"></span>
+    </p>
+    <p><b data-i18n="tails26"></b></p>
+
+    <p>
+        <b data-i18n="sonic26"></b><br>
+        <span data-i18n="sonic26b"></span>
+    </p>
+    <p><b data-i18n="sonic27"></b></p>
+
+    <p data-i18n="p148"></p>
+
+    <p>
+        <b data-i18n="shirou10"></b><br>
+        <span data-i18n="shirou10b"></span>
+    </p>
+    <p><b data-i18n="shirou11"></b></p>
+
+    <p>
+        <b data-i18n="sonic28"></b><br>
+        <span data-i18n="sonic28b"></span>
+    </p>
+    <p><b data-i18n="sonic29"></b></p>
+
+    <p>
+        <b data-i18n="tails27"></b><br>
+        <span data-i18n="tails27b"></span>
+    </p>
+    <p><b data-i18n="tails28"></b></p>
+
+    <p>
+        <b data-i18n="saber18"></b><br>
+        <span data-i18n="saber18b"></span>
+    </p>
+    <p><b data-i18n="saber19"></b></p>
+
+    <p><b data-i18n="shirou12"></b></p>
+
+    <p>
+        <span data-i18n="p149"></span>
+        <a class="imag card">
+            <i data-i18n="taiga_name"></i>
+            <span><img alt="Taiga" src="../assets/img/Taiga_casual_UBW.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p149b"></span>
+        <a class="imag card">
+            <i data-i18n="sakura_name"></i>
+            <span><img alt="Sakura" src="../assets/img/sakura.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p149c"></span>
+    </p>
+
+    <p>
+        <b data-i18n="sonic30"></b><br>
+        <span data-i18n="sonic30b"></span>
+    </p>
+    <p><b data-i18n="sonic31"></b></p>
+
+    <p>
+        <span data-i18n="p150"></span>
+        <a class="imag card">
+            <i data-i18n="p150b"></i>
+            <span><img alt="Saber Casual" src="../assets/img/saber_casual.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p150c"></span>
+    </p>
+
+    <p>
+        <b data-i18n="shirou13"></b><br>
+        <span data-i18n="shirou13b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="saber20"></b><br>
+        <span data-i18n="saber20b"></span>
+    </p>
+    <p><b data-i18n="saber21"></b></p>
+
+    <p data-i18n="p151"></p>
+    <p data-i18n="p152"></p>
+
+    <hr>
+
+    <p data-i18n="p153"></p>
+
+    <p>
+        <b data-i18n="tails29"></b><br>
+        <span data-i18n="tails29b"></span>
+    </p>
+    <p><b data-i18n="tails30"></b></p>
+
+    <p>
+        <b data-i18n="sonic32"></b><br>
+        <span data-i18n="sonic32b"></span>
+    </p>
+    <p><b data-i18n="sonic33"></b></p>
+
+    <hr>
+
+    <p>
+        <a class="imag card">
+            <i data-i18n="amy_name"></i>
+            <span><img alt="Amy" src="../assets/img/SRCAmy.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p154"></span>
+    </p>
+
+    <p><b data-i18n="amy1"></b></p>
+
+    <p>
+        <b data-i18n="bazett1"></b><br>
+        <span data-i18n="bazett1b"></span>
+        <a class="imag card">
+            <i data-i18n="bazett_name"></i>
+            <span><img alt="Bazett" src="../assets/img/Bazett_Takashi_Takeuchi_character_select.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="p155"></span>
+    </p>
+
+    <p><b data-i18n="bazett2"></b></p>
+
+    <p data-i18n="p156"></p>
+
+    <p>
+        <b data-i18n="amy2"></b><br>
+        <span data-i18n="amy2b"></span>
+    </p>
+    <p><b data-i18n="amy3"></b></p>
+
+    <p><b data-i18n="bazett3"></b></p>
+
+    <p data-i18n="p157"></p>
+    <p data-i18n="p158"></p>
+
+    <p>
+        <b data-i18n="amy4"></b>
+        <a class="imag card">
+            <i data-i18n="kotomine_name"></i>
+            <span><img alt="Kotomine" src="../assets/img/Kirei_Heaven's_Feel_Movie.png" style="height: 621px; margin-left: 119px;"></span>
+        </a>
+        <b data-i18n="amy4b"></b>
+    </p>
+
+    <p data-i18n="p159"></p>
+    <p><b data-i18n="bazett4"></b></p>
+
+    <p>
+        <b data-i18n="amy5"></b><br>
+        <span data-i18n="amy5b"></span>
+    </p>
+    <p><b data-i18n="amy6"></b></p>
+
+    <p data-i18n="p160"></p>
+    <p><b data-i18n="amy7"></b></p>
+
+    <p><i><span data-i18n="bazett_thought1"></span></i></p>
+    <p data-i18n="p161"></p>
+
+    <p><b data-i18n="bazett5"></b></p>
+    <p data-i18n="p162"></p>
+    <p><b data-i18n="bazett6"></b></p>
+
+    <p><b data-i18n="amy8"></b></p>
+    <p data-i18n="p163"></p>
+
+    <p><b data-i18n="bazett7"></b></p>
+
+    <p>
+        <b data-i18n="amy9"></b><br>
+        <span data-i18n="amy9b"></span>
+    </p>
+    <p><b data-i18n="amy10"></b></p>
+
+    <p>
+        <i><span data-i18n="bazett_thought2"></span></i><br>
+        <span data-i18n="bazett_thought2b"></span>
+    </p>
+    <p><b data-i18n="bazett8"></b></p>
+
+    <p>
+        <b data-i18n="amy11"></b><br>
+        <span data-i18n="amy11b"></span>
+    </p>
+    <p><b data-i18n="amy12"></b></p>
+
+    <p data-i18n="p164"></p>
+    <p>
+        <i><span data-i18n="bazett_thought3"></span></i><br>
+        <span data-i18n="bazett_thought3b"></span>
+    </p>
+
+    <p><b data-i18n="bazett9"></b></p>
+
+    <p>
+        <b data-i18n="amy13"></b><br>
+        <span data-i18n="amy13b"></span>
+    </p>
+    <p><b data-i18n="amy14"></b></p>
+
+    <p>
+        <b data-i18n="bazett10"></b><br>
+        <span data-i18n="bazett10b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy15"></b><br>
+        <span data-i18n="amy15b"></span>
+    </p>
+
+    <p data-i18n="p165"></p>
+    <p data-i18n="p166"></p>
+
+    <p><b data-i18n="bazett11"></b></p>
+
+    <p><i><span data-i18n="bazett_thought4"></span></i></p>
+
+    <p data-i18n="p167"></p>
+    <p><b data-i18n="amy16"></b></p>
+
+    <p>
+        <b data-i18n="bazett12"></b><br>
+        <span data-i18n="bazett12b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy17"></b><br>
+        <span data-i18n="amy17b"></span>
+    </p>
+    <p><b data-i18n="amy18"></b></p>
+
+    <hr>
+
+    <div id="zone7" class="audio-zone">
+        <audio id="audioPlayer7" src="../assets/audio/Sonic X Music Eggmans Theme.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause7">▶️</button>
+            <input type="range" id="progress7" value="0" step="1">
+            <input type="range" id="volume7" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title7"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <b data-i18n="eggman1"></b><br>
+        <span data-i18n="eggman1b"></span>
+        <a class="imag card">
+            <i data-i18n="eggman_name"></i>
+            <span><img alt="Dr. Eggman" src="../assets/img/SDT_DoctorEggmanRender.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="eggman1c"></span>
+    </p>
+
+    <p data-i18n="p168"></p>
+    <p data-i18n="p169"></p>
+
+    <p>
+        <b data-i18n="orbot1"></b><br>
+        <span data-i18n="orbot1b"></span>
+        <a class="imag card">
+            <i data-i18n="orbot_name"></i>
+            <span><img alt="Orbot" src="../assets/img/Sonic-Colours-Orbot.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="orbot1c"></span>
+    </p>
+
+    <p><b data-i18n="orbot2"></b></p>
+
+    <p>
+        <b data-i18n="eggman2"></b><br>
+        <span data-i18n="eggman2b"></span>
+    </p>
+    <p><b data-i18n="eggman3"></b></p>
+
+    <p>
+        <b data-i18n="cubot1"></b><br>
+        <span data-i18n="cubot1b"></span>
+        <a class="imag card">
+            <i data-i18n="cubot_name"></i>
+            <span><img alt="Cubot" src="../assets/img/Cubot.png" style="height: 421px; margin-left: 119px;"></span>
+        </a>
+        <span data-i18n="cubot1c"></span>
+    </p>
+
+    <p>
+        <b data-i18n="eggman4"></b><br>
+        <span data-i18n="eggman4b"></span>
+    </p>
+    <p><b data-i18n="eggman5"></b></p>
+
+    <p data-i18n="p170"></p>
+    <p><b data-i18n="orbot3"></b></p>
+
+    <p data-i18n="p171"></p>
+    <p data-i18n="p172"></p>
+
+    <p><b data-i18n="eggman6"></b></p>
+
+    <p>
+        <b data-i18n="orbot4"></b><br>
+        <span data-i18n="orbot4b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="eggman7"></b><br>
+        <span data-i18n="eggman7b"></span>
+    </p>
+    <p><b data-i18n="eggman8"></b></p>
+
+    <p>
+        <b data-i18n="cubot2"></b><br>
+        <span data-i18n="cubot2b"></span>
+    </p>
+    <p><b data-i18n="cubot3"></b></p>
+
+    <p data-i18n="p173"></p>
+
+    <p>
+        <b data-i18n="eggman9"></b><br>
+        <span data-i18n="eggman9b"></span>
+    </p>
+
+    <p data-i18n="p174"></p>
+
+    <p><b><i data-i18n="movie_announce"></i></b></p>
+
+    <p>
+        <b data-i18n="eggman10"></b><br>
+        <span data-i18n="eggman10b"></span>
+    </p>
+
+    <p data-i18n="p175"></p>
+    <p><b data-i18n="orbot5"></b></p>
+
+    <p><b data-i18n="tbc"></b></p>
+
+    <hr>
+
+    <div id="zone8" class="audio-zone">
+        <audio id="audioPlayer8"
+            src="../assets/audio/Fate_stay night [Réalta Nua] (PS Vita) OST - Theme of Tiger Dojo (2012).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause8">▶️</button>
+            <input type="range" id="progress8" value="0" step="1">
+            <input type="range" id="volume8" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title8"></span>
+            </div>
+        </div>
+    </div>
+
+    <p><b><i data-i18n="tiger_dojo"></i></b></p>
+
+    <p><b data-i18n="taiga1"></b></p>
+
+    <p><b data-i18n="illya14"></b></p>
+
+    <p><b data-i18n="taiga2"></b></p>
+
+    <p><b data-i18n="illya15"></b></p>
+
+    <p><b data-i18n="taiga3"></b></p>
+
+    <p><b data-i18n="illya16"></b></p>
+
+    <p><b data-i18n="taiga4"></b><i data-i18n="taiga4b"></i></p>
+
+    <p><b data-i18n="illya17"></b></p>
+
+    <p><b data-i18n="taiga5"></b></p>
+
+    <p><b data-i18n="illya18"></b><i data-i18n="illya18b"></i><b data-i18n="illya18c"></b></p>
+
+    <p><b data-i18n="taiga6"></b></p>
+
+    <p><b data-i18n="illya19"></b></p>
+
+    <p><b data-i18n="taiga7"></b></p>
+
+    <p>
+        <center>
+            <a href="../Chapter_02/Chapitre_02.html"><span data-i18n="chapter_prev"></span></a> <span data-i18n="chapter"></span> <!-- <a href="../Chapter_04/Chapitre_04.html"><span data-i18n="chapter_next"></span></a><br><br> -->
+        </center>
+    </p>
+
+    <center>
+        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+            <span data-i18n="chapter_list"></span><br>
+
+            <select id="chap_select_fin" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            </select>
+        </div>
+    </center>
+
+</body>
+
+<script src="./../chapter/contr_chapter.js"></script>
+
+<script src="../js/widget.js"></script>
+<script src="../js/audio.js"></script>
+
+</html>

@@ -17,5 +17,5 @@ function fillChapterSelect(selectId, totalChapters) {
 }
 
 // Exemple d’utilisation : remplir les deux listes
-fillChapterSelect('chap_select_debut', 2);      //30
-fillChapterSelect('chap_select_fin', 2);        //30
+fillChapterSelect('chap_select_debut', 3);      //30
+fillChapterSelect('chap_select_fin', 3);        //30
