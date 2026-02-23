@@ -221,8 +221,8 @@
   "p72": "Esquivant une nouvelle attaque, Sonic fonça droit sur Lancer et lui décocha un coup de poing bien placé.",
   "sonic23": "Sonic : Touché ! C'est toi le chat !",
   "p73": "Et sur ce, il détala à toute allure, laissant Lancer hurler de frustration en lui courant après.",
+  "p73a": "Puis, le silence revint. Un calme pesant, troublé seulement par la voix faible de Shirou, désormais assez rétabli pour reprendre conscience.",
   "shirou2": "Shirou : Qu’est-ce… qu’est-ce qui vient de se passer ?",
-  "p74": "Personne ne sut quoi répondre.",
 
   "audio_title7": "Sonic X OST – Sonic’s Fight (Track 2)",
 
@@ -361,7 +361,7 @@
 
   "p114": "Saber fronça les sourcils, mais ne répondit pas. Elle n’aimait pas l’admettre, mais Sonic s’était nettement mieux débrouillé face à Lancer qu’elle-même durant leur brève escarmouche. Cependant, il semblait arborer une attitude insouciante, nourrie par une certaine arrogance – et ce genre de comportement menait invariablement à la catastrophe.",
   "p115": "Heureusement, Sonic et Lancer s’étaient battus de nuit. Si leur duel avait eu lieu en plein jour, il aurait été impossible de dissimuler leur existence ; rien que l’apparence de Sonic aurait pu révéler l’existence de la Magie. Il devait être mis au courant afin d’agir avec plus de discrétion.",
-
+  "p115a": "Et ainsi, Shirou expliqua à Sonic ce qu’il savait de la Magie, ce qu’il avait appris de Kotomine au sujet de la Guerre du Saint Graal.",
   "sonic39": "Sonic : Donc ce gars, Lancer, c’est quoi ? Un genre de fantôme magique ?",
   "sonic39b": "Demanda Sonic, tapotant du pied.",
   "shirou26": "Shirou : Si ça t’aide à mieux comprendre…",
@@ -393,7 +393,7 @@
   "p117": "Elle ne put s’empêcher de penser au Rider de la Quatrième Guerre, qui s’était vanté ouvertement d’être ",
   "alexander": "Alexandre le Grand",
   "p118": ". Il était peu probable qu’un tel fanfaron se manifeste cette fois-ci, mais comme elle l’avait déjà vu, le monde pouvait parfois réserver des surprises inattendues.",
-
+  "p118a": "Sonic poussa un petit grognement et ferma les yeux.",
   "sonic43": "Sonic : Mais est-ce que ces Servants sont vraiment des héros ? J’ai surpris Lancer en train d’essayer de tuer quelqu’un,",
   "sonic43b": "Dit-il, ouvrant légèrement les yeux pour regarder le sol.",
   "sonic44": "Sonic : Et ce, après avoir déjà éventré un autre type…",
@@ -445,7 +445,7 @@
   "saber24": "Saber : …Non, en effet, ça ne fait pas de mal.",
   "p131": "Saber referma lentement sa main sur l’Anneau.",
   "p132": "Même si elle n’aimait pas avoir à dépendre du pouvoir d’un autre, après son échec durant la Quatrième Guerre et la perte de son fourreau, Saber ne voulait prendre aucun risque. Et si Shirou continuait à se jeter au-devant du danger comme un inconscient, il allait bien avoir besoin d’une protection supplémentaire.",
-
+  "p132a": "Bien que si son intuition était correcte",
   "sonic53": "Sonic : Hé, y’a un truc qui me turlupine.",
   "sonic53b": "Intervint Sonic.",
   "sonic54": "Sonic : Si tous les Maîtres de cette Guerre sont des sortes de sorciers—",
@@ -681,6 +681,9 @@
   "p188": "Le sourire d’Assassin s’effaça légèrement.",
 
   "assassin6": "Assassin : Je crains de n’avoir jamais entendu parler d’un tel endroit. C’est de là que tu viens ?",
+  "p188a": "Knuckles grogna et se frotta le visage. Donc l’explosion l’avait envoyé dans un autre monde… Évidemment.",
+  "p188b": "Assassin dit alors :",
+  "assassin6a": "Assassin : Je vois à ta tête que tu es loin de chez toi.",
 
   "knuckles5": "Knuckles : Mec, t’as pas idée.",
 
@@ -689,6 +692,8 @@
   "assassin7": "Assassin : J’aimerais pouvoir t’offrir un endroit où te reposer, mais malheureusement, la vieille dame que je dois appeler mon Maître a une politique très stricte contre les visiteurs. Elle est un peu radine, vois-tu.",
 
   "unknown1": "??? : Allons, Assassin, ne dis pas de mensonges.",
+  "assassin8": "",
+
 
   "p190": "Assassin tourna la tête, et Knuckles regarda par-dessus son épaule. Une belle femme adulte s’approchait d’eux, ses traits au-dessus du nez dissimulés sous une capuche violette prolongée en une cape élaborée.",
 

@@ -221,8 +221,8 @@
   "p72": "Dodging another attempted stab, Sonic ran up to Lancer and gave him a punch.",
   "sonic23": "Sonic: Tag! You're it!",
   "p73": "And with that, Sonic sped off, with Lancer yelling as he followed close behind.",
+  "p73a": "After that, silence ruled. The only sound in the lull came from Shirou, who was now healthy enough to be conscious. He asked.",
   "shirou2": "Shirou: What… just happened?",
-  "p74": "After that, silence ruled. The only sound in the lull came from Shirou, who was now healthy enough to be conscious.",
 
   "audio_title7": "Sonic X OST – Sonic’s Fight (Track 2)",
 
@@ -361,7 +361,7 @@
 
   "p114": "Saber frowned, but did not argue. She did not want to admit it, but Sonic had faired far better against Lancer than she had during their brief clash. However, he seemed to have a devil-may-care attitude born of arrogance — and that always brought about disaster.",
   "p115": "They were fortunate that Sonic and Lancer had fought at night. Had the two dueled during the day, there would be no way to cover it up; Sonic's very existence could expose the existence of Magecraft. He needed to know to be more discreet. And so, Shirou told Sonic about Magecraft, what little he knew, and about what he learned about the Holy Grail War from Kotomine.",
-
+  "p115a": "And so, Shirou told Sonic about Magecraft, what little he knew, and about what he learned about the Holy Grail War from Kotomine.",
   "sonic39": "Sonic: So that guy, Lancer, is what, some kinda magic ghost?",
   "sonic39b": "Sonic asked, tapping his feet.",
   "shirou26": "Shirou: If that helps you understand it…",
@@ -393,7 +393,7 @@
   "p117": "She couldn't help but think about the Fourth War's Rider, who brazenly declared himself as ",
   "alexander": "Alexander the Great",
   "p118": ". It was unlikely that someone that boisterous would appear this time around, but as she had seen, the world sometimes threw a curveball when least expected to.",
-
+  "p118a": "Sonic grunted and closed his eyes.",
   "sonic43": "Sonic: But are the Servants in this thing really heroes? I caught Lancer trying to kill someone,",
   "sonic43b": "He opened his eyes slightly and looked at the floor.",
   "sonic44": "Sonic: After he had already gutted someone else…",
@@ -445,7 +445,7 @@
   "saber24": "Saber: …No, I suppose it does not.",
   "p131": "Saber's hand closed over the Ring slowly.",
   "p132": "While she did not like having to borrow another's power, after her failure in the Fourth War, and the loss of her scabbard, Saber did not want to take any chances. And if Shirou was going to continue being needlessly reckless, then he would require some additional protection. Though if her hunch was correct…",
-
+  "p132a": "Though if her hunch was correct…",
   "sonic53": "Sonic: Hey, this has been bugging me,",
   "sonic53b": "Sonic piped up.",
   "sonic54": "Sonic: But if every Master in this War some kind of wizard—",
@@ -683,19 +683,24 @@
 
   "assassin6": "Assassin: I'm afraid I've never heard of such a place. Is that where you're from?",
 
-  "p189": "Knuckles groaned and rubbed his face. So the explosion sent him to an entirely different world. That figured.",
+  "p188a": "Knuckles groaned and rubbed his face. So the explosion sent him to an entirely different world. That figured.",
+  "p188b": "Assassin said.",
+  "assassin6a": "Assassin: I see from the look on your face that you seem to be a long way from your home.",
 
-  "assassin7": "Assassin: I see from the look on your face that you seem to be a long way from your home.",
+
+  "p189": "Assassin put on a sympathetic smile.",
+
+  "assassin7": "",
 
   "knuckles5": "Knuckles: Brother, you have no idea.",
 
-  "p190": "Assassin put on a sympathetic smile.",
+  "p190": "Assassin turned his head and Knuckles looked past the samurai's shoulders. Walking towards them was a beautiful adult woman, whose features above her nose were hidden by a purple hood that extended into an elaborate cape.",
 
   "assassin8": "Assassin: Well, I would like to offer you a place to rest, but sadly, the old bag I have to call Master has a strict policy against visitors. She's a bit of a cheapskate, you see.",
 
   "unknown1": "???: Now, Assassin, don't tell lies.",
 
-  "p191": "Assassin turned his head and Knuckles looked past the samurai's shoulders. Walking towards them was a beautiful adult woman, whose features above her nose were hidden by a purple hood that extended into an elaborate cape.",
+  "p191": "Knuckles looked at Assassin, who shrugged in response. The Psuedo-Servant had no real interest in what happened, but Knuckles took his act to mean, 'She's trustworthy, go right in.'",
 
   "caster1": "Caster: I may enjoy my privacy, but I could never turn out a lost soul into the night.",
   "caster_img": "Caster",
@@ -704,7 +709,7 @@
 
   "caster2": "Caster: Why don't you come in, and tell me what's troubling you? Perhaps I can help.",
 
-  "p192": "Knuckles looked at Assassin, who shrugged in response. The Psuedo-Servant had no real interest in what happened, but Knuckles took his act to mean, 'She's trustworthy, go right in.'",
+  "p192": "Caster's smile grew even more.",
 
   "knuckles6": "Knuckles: All right, I need to get my head straight anyway. Thanks.",
   "knuckles7": "Knuckles replied, walking past Assassin.",
