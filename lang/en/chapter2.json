@@ -261,7 +261,7 @@
 
   "p48": "While it was tempting, there was no way Sakura would be interested in him like that…",
 
-  "p49": "…and besides, going after your underclassman was wrong.",
+  "p49": " and besides, going after your underclassman was wrong.",
 
   "audio_title4": "Fate/Stay Night: Gentle Everyday",
 
@@ -378,6 +378,9 @@
   "p75": "Exchanges like that were all that was to tell about the relationship between the two students. Once they had been close, many years ago, but now, an emotional wall existed between them. Deep down, it hurt Rin that such a wall existed. But she had long ago decided that the only way to deal with the pain was by putting another wall around her own heart. For years, it worked quite well, allowing Rin to focus on her own Magecraft training. But as she would learn in time, such a tactic caused certain important factors to slip past her.",
 
   "p76": "But Emiya Shirou did not.",
+
+  "p76b": "She saw him running up towards the school from one of the windows. She also saw that Saber was not with him.",
+
 
   "rin_line2": "Rin: Did that idiot really come alone?",
   "rin_line2b": "She thought, stunned.",
@@ -591,6 +594,9 @@
 
   "p124": "Sonic shook his head sadly as the game's countdown appeared on the screen.",
 
+  "p124a": "Saber grimaced as she hit the start button on her controller.",
+
+
   "saber_line37": "Saber: I am starting to figure out its tactics, however. I am confident that this next battle shall end in my favor.",
 
   "sonic_line16": "Sonic: Yeah, that's good to know,",
@@ -640,6 +646,9 @@
   "p134b": "Saber looked at Sonic.",
   "saber_line39c": "Saber: What?",
   "sonic_line26": "Sonic: I'll take you to Shirou before taking down that robot.",
+  "sonic_line26a": "Sonic explained.",
+  "sonic_line26b": "Sonic: With my speed, we should be there in a few minutes.",
+
   "saber_line41": "Saber: That will not be necessary,",
   "saber_line41b": "Saber rebuffed proudly, and marched towards the door.",
   "saber_line42": "Saber: My own speed is not to be underestimated. By taking the rooftops, I can arrive at Shirou's school in short order.",
@@ -986,6 +995,10 @@
 
   "p214": "Sonic began to Spin Dash. As he built up speed, Rider prepared her counterattack—Sonic's attacks were basic enough, but that wasn't the problem. She knew that it wouldn't be long until their conflict attracted other people—or worse, other Masters. The Tohsaka girl her current Master tried to hit on was definitely a Master, and still in the school. If she witnessed the fight, she might glean information from the struggle to come up with a counter for Rider's abilities.",
 
+  "p214a": "That's when an idea came to Rider. Smirking, she raised her hand towards her blindfold. The reason she kept her eyes hidden wasn't because of any disability. Rather, her eyes worked too well. Anyone within her vision would become stone, unless they possessed a strong enough mystical defense. But even then, the power may stun them long enough for a killing blow.",
+
+  "p214b": "Rider's blind fell at the same time Sonic moved. While the Power Rings were an excellent defense against physical attacks, status effects were a different matter. Rider's gamble worked, and Sonic became stone. But the laws of inertia are not so easily dismissed, even with magic. The Hedgehog's body had indeed transformed, but he was still in motion when that transformation occurred. Rider had assumed petrification would act as an emergency brake, and thus was unprepared for the rolling ball of spiny rock coming at her.",
+
   "p215": "CRASH!",
 
   "p216": "Sonic's petrified body struck Rider's stomach with enough force to send them both through the wall. Tumbling in the air, Rider forced Sonic's stone form off of her to avoid being squished under it, and the two landed in two inelegant heaps in the school's yard. With her sight broken, Sonic's body went back to normal.",
@@ -995,7 +1008,7 @@
   "sonic_line43": "Sonic: How'd I freeze up like that…?",
 
   "p217": "Rider leapt to her feet, angry but confused. Putting her blindfold back on, she considered making a grand escape; They were outside now, and Sonic seemed to be immune to Noble Phantasms. Though night hadn't fallen just yet, it was still dark enough to use Bellerophon Bridle to summon a flying beast to take her away. No matter how fast Sonic was, it didn't seem like he was capable of flight.",
-
+  "p217a": "The sound of a blade rushing through the air caught Rider's thoughts, and she leapt away, just narrowly being bisected by Saber's invisible sword. Flipping onto her feet, Rider positioned herself equal distance between the other Servant and Sonic.",
   "saber_line52": "Saber: Are you all right, Sonic?!",
   "saber_line52b": "Saber asked, keeping her vision locked onto the woman in black.",
   "sonic_line44": "Sonic: Saber… Yeah, I'm fine!",
@@ -1274,7 +1287,7 @@
   "sonic_line57": "Sonic: Yup. What are ya gonna do?",
 
   "p285": "Saber just shook her head, and turned her gaze towards Shirou. So far, it looked like her Master and Rin were unharmed from the blast. Still, she would rest easier once she had returned to him.",
-
+  "p285a": "Meanwhile, Rin and Archer were in a telepathic conference.",
   "archer_line25": "Archer: I saw the robot explode. Are you unharmed?",
   "archer_line25b": "The bowman asked.",
 
@@ -1376,7 +1389,7 @@
   "tails_line30": "Tails: Wow. How'd you know?",
 
   "tails_line30b": "Tails' ears twitched.",
-
+  "p304a": "Sonic jerked a thumb at Saber.",
   "sonic_line68": "Sonic: Saber over there is one, too.",
 
   "archer_line29": "Archer: The term is Servant.",
@@ -1632,8 +1645,8 @@
   "rin_line129": "Rin: Ugh… let's just go home.",
   "rin_line129b": "Rin decided. The whole evening had been a roller coaster of surprises and revelations, and now she wanted off.",
 
-  "rin_line130": "Rin: I need to restock my jewels…",
-
+  "rin_line130": "Rin: I need to restock my jewels, and…",
+  "rin_line130a": "She pointed at Shirou.",
   "rin_line131": "Rin: And you need to stop doing suicidal things and surviving, all right?",
 
   "p355": "Shirou blinked.",

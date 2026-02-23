@@ -262,7 +262,7 @@
 
   "p48": "C’était tentant de croire ça…",
 
-  "p49": "…mais il n’y avait aucune chance que Sakura le voie autrement qu’un simple senpai. Et puis, sortir avec une élève de classe plus jeune, c’était mal.",
+  "p49": " mais il n’y avait aucune chance que Sakura le voie autrement qu’un simple senpai. Et puis, sortir avec une élève de classe plus jeune, c’était mal.",
 
 
   "audio_title4": "Fate/Stay Night: Gentle Everyday",
@@ -380,6 +380,8 @@
   "p75": "De tels échanges étaient tout ce qu’il restait à dire sur la relation entre les deux élèves. Autrefois, elles avaient été proches, il y a de nombreuses années, mais à présent, un mur émotionnel les séparait. Au fond d’elle-même, Rin souffrait de l’existence de ce mur. Mais elle avait décidé depuis longtemps que la seule façon de gérer cette douleur était d’ériger un autre mur autour de son propre cœur. Pendant des années, cette stratégie avait très bien fonctionné, lui permettant de se concentrer sur son entraînement à la sorcellerie. Mais, comme elle allait bientôt l’apprendre, une telle tactique faisait parfois passer certains facteurs importants entre les mailles du filet.",
 
   "p76": "Mais pas Emiya Shirou.",
+
+  "p76b": "Elle le vit courir vers l’école depuis l’une des fenêtres. Elle remarqua également que Saber n’était pas avec lui.",
 
   "rin_line2": "Rin : Est-ce que cet idiot est vraiment venu tout seul ?",
   "rin_line2b": "Pensa-t-elle, stupéfaite.",
@@ -593,6 +595,9 @@
 
   "p124": "Sonic secoua la tête avec tristesse alors que le compte à rebours du jeu apparaissait à l’écran.",
 
+  "p124a": "Saber grimaça en appuyant sur le bouton start de sa manette.",
+
+
   "saber_line37": "Saber : Je commence toutefois à comprendre ses tactiques. Je suis confiante que ce prochain combat tournera à mon avantage.",
 
   "sonic_line16": "Sonic : Ouais, c’est bon à savoir...",
@@ -641,6 +646,8 @@
   "p134b": "Saber le regarda, surprise.",
   "saber_line39c": "Saber: Quoi ?",
   "sonic_line26": "Sonic : Je t’emmène chez Shirou avant de m’occuper de ce robot.",
+  "sonic_line26a": "Expliqua Sonic.",
+  "sonic_line26b": "Sonic : Avec ma vitesse, on devrait y être en quelques minutes.",
   "saber_line41": "Saber : Ce ne sera pas nécessaire,",
   "saber_line41b": "Répondit fièrement Saber en marchant vers la porte.",
   "saber_line42": "Saber : Ma propre vitesse n’est pas à sous-estimer. En passant par les toits, je peux atteindre l’école de Shirou en un rien de temps.",
@@ -984,6 +991,10 @@
   "sonic_line41": "Sonic : C’est ça ! Elle esquive bien, donc je vais même pas viser ! Cette fois, je vais juste attraper sa chaîne et l’entraîner dehors !",
 
   "p214": "Sonic commença à charger son Spin Dash. Tandis qu’il accumulait de la vitesse, Rider se prépara à contre-attaquer — les attaques du hérisson étaient relativement simples, mais ce n’était pas là le vrai problème. Elle savait que leur affrontement ne tarderait pas à attirer l’attention d’autres personnes… ou pire, d’autres Maîtres. La fille Tohsaka, sur qui son Maître actuel avait tenté de faire une avance, était clairement une Maîtresse et se trouvait encore dans l’établissement. Si elle assistait au combat, elle pourrait glaner des informations précieuses sur les capacités de Rider et en tirer un contre.",
+  
+  "p214a": "C’est alors qu’une idée germa dans l’esprit de Rider. Un sourire en coin sur le visage, elle leva la main vers son bandeau. Elle ne gardait pas les yeux couverts à cause d’un handicap. Bien au contraire — ses yeux voyaient trop bien. Toute personne entrant dans son champ de vision serait transformée en pierre, à moins de posséder une défense mystique suffisamment puissante. Mais même dans ce cas, le pouvoir pouvait suffire à les paralyser assez longtemps pour porter un coup fatal.",
+
+  "p214b": "Le bandeau de Rider tomba au même moment où Sonic bondit. Les Anneaux de Pouvoir offraient une excellente protection contre les attaques physiques, mais les altérations d’état étaient une tout autre affaire. Le pari de Rider porta ses fruits : Sonic fut pétrifié. Mais les lois de l’inertie ne se dissipent pas si facilement, même avec la magie. Le corps du hérisson s’était bel et bien transformé… mais il était encore en mouvement quand cela arriva. Rider avait supposé que la pétrification agirait comme un frein d’urgence, et elle ne s’attendait donc pas à ce que cette boule de roc hérissée lui fonce encore dessus.",
 
   "p215": "CRASH !",
 
@@ -994,7 +1005,7 @@
   "sonic_line43": "Sonic : Comment j’ai pu me figer comme ça… ?",
 
   "p217": "Rider se redressa d’un bond, furieuse mais troublée. Elle replaça son bandeau en réfléchissant à une retraite stratégique. Ils étaient désormais dehors, et Sonic semblait immunisé aux Noble Phantasms. Bien que la nuit ne soit pas encore totalement tombée, l’obscurité suffisait peut-être pour utiliser Bellerophon, son harnais mystique, et invoquer une monture ailée pour s’échapper. Aussi rapide que fût Sonic, il ne semblait pas capable de voler.",
-
+  "p217a": "Mais le sifflement d’une lame fendit l’air, interrompant ses pensées. Rider bondit en arrière, échappant de justesse à la lame invisible de Saber. Retombant sur ses pieds, elle se plaça à distance égale de Sonic et de l’autre Servant.",
   "saber_line52": "Saber : Est-ce que ça va, Sonic ?!",
   "saber_line52b": "Demanda Saber, les yeux toujours fixés sur la femme en noir.",
   "sonic_line44": "Sonic : Saber… Ouais, ça va !",
@@ -1283,7 +1294,7 @@
   "sonic_line57": "Sonic : Ouais. Qu’est-ce que tu veux qu’on y fasse ?",
 
   "p285": "Saber secoua la tête et tourna son regard vers Shirou. Jusqu’à présent, lui et Rin semblaient sains et saufs. Mais elle ne se détendrait totalement qu’une fois de retour à ses côtés.",
-
+  "p285a": "Pendant ce temps, Rin et Archer poursuivaient leur conversation mentale.",
   "archer_line25": "Archer : J’ai vu le robot exploser. Tu n’as rien ?",
   "archer_line25b": "Demanda l’archer.",
 
@@ -1385,6 +1396,9 @@
 
   "tails_line30": "Tails : Wow. Comment t’as deviné ?",
   "tails_line30b": "Les oreilles de Tails frémirent.",
+
+  "p304a": "Sonic désigna Saber du pouce.",
+
 
   "sonic_line68": "Sonic : Saber en est une aussi.",
 
@@ -1638,7 +1652,9 @@
   "rin_line129": "Rin : Ugh… rentrons à la maison.",
   "rin_line129b": "Décida Rin. Toute cette soirée avait été une véritable montagne russe de surprises et de révélations, et maintenant elle voulait descendre.",
 
-  "rin_line130": "Rin : Il faut que je refasse le stock de mes joyaux…",
+  "rin_line130": "Rin : Il faut que je refasse le stock de mes joyaux, et…",
+  "rin_line130a": "Elle pointa alors Shirou du doigt.",
+
 
   "rin_line131": "Rin : Et toi, tu dois arrêter de faire des trucs suicidaires et de t’en sortir à chaque fois, d’accord ?",
 
