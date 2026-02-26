@@ -1,0 +1,13 @@
+# IDE
+.vscode/
+
+# Fichiers utilitaires / conversion
+compare_html_vs_json.py
+GUIDE_CONVERSION_CHAPITRES.md
+
+# Sources texte originales
+sources/
+
+# Anciennes versions HTML (doublons)
+*_v1.html
+*_v1*.html
