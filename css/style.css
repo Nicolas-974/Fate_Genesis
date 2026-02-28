@@ -296,7 +296,7 @@ a:visited {
 }
 
 /* Images cachées par défaut, révélées par bouton Click Me */
-#DisImg1, #Dis2, #DisImg3, #Dis4 {
+#DisImg1, #DisImg2, #Dis2, #DisImg3, #Dis4 {
   display: none;
 }
 
