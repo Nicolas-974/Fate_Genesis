@@ -27,7 +27,7 @@
     <title>Chapitre 02</title>
 </head>
 
-<body style="zoom: 150%;">
+<body>
 
     <div id="theme-panel" aria-expanded="false">
         <div id="theme-handle" title="Ouvrir le panneau">««</div>
@@ -43,8 +43,10 @@
     <!-- le toast doit être en dehors du panneau -->
     <div id="toast"></div>
 
+    <div class="chapter-container">
+
     <center>
-        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+        <div style="border: blue solid 1px; max-width: 350px; width: 100%; padding: 8px; box-sizing: border-box;">
             <span data-i18n="chapter_list"></span><br>
 
             <select id="chap_select_debut" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
@@ -83,21 +85,21 @@
             <i data-i18n="eggman_name"></i>
             <span>
                 <img alt="Eggman" src="../assets/img/SDT_DoctorEggmanRender.png"
-                    style="height: 421px; margin-left: 119px;">
+                   >
             </span>
         </a>
         <span data-i18n="p5b"></span>
         <a class="imag card">
             <i data-i18n="orbot_name"></i>
             <span>
-                <img alt="Orbot" src="../assets/img/Sonic-Colours-Orbot.png" style="height: 421px; margin-left: 119px;">
+                <img alt="Orbot" src="../assets/img/Sonic-Colours-Orbot.png">
             </span>
         </a>
         <span data-i18n="p5c"></span>
         <a class="imag card">
             <i data-i18n="cubot_name"></i>
             <span>
-                <img alt="Cubot" src="../assets/img/Cubot.png" style="height: 421px; margin-left: 119px;">
+                <img alt="Cubot" src="../assets/img/Cubot.png">
             </span>
         </a>
         <span data-i18n="p5d"></span>
@@ -112,7 +114,7 @@
         <a class="imag card">
             <i data-i18n="amy_name"></i>
             <span>
-                <img alt="Amy" src="../assets/img/SRCAmy.png" style="height: 421px; margin-left: 119px;">
+                <img alt="Amy" src="../assets/img/SRCAmy.png">
             </span>
         </a>
         <b data-i18n="orbot_line2b"></b>
@@ -120,7 +122,7 @@
             <i data-i18n="knuckles_name"></i>
             <span>
                 <img alt="Knuckles" src="../assets/img/Frontiers_Knuckles.png"
-                    style="height: 421px; margin-left: 119px;">
+                   >
             </span>
         </a>
         <b data-i18n="orbot_line2c"></b>
@@ -145,7 +147,7 @@
         <a class="imag card">
             <i data-i18n="sonic_name"></i>
             <span>
-                <img alt="Sonic" src="../assets/img/SXSG_Sonic.png" style="height: 421px; margin-left: 119px;">
+                <img alt="Sonic" src="../assets/img/SXSG_Sonic.png">
             </span>
         </a>
         <b data-i18n="cubot_line2b"></b>
@@ -348,7 +350,7 @@
 
     <div id="DisImg1">
 
-        <img alt="toto" src="../assets/img/Gilgamesh_Heaven's_Feel_Movie.png" style="height: 661px;">
+        <img alt="toto" src="../assets/img/Gilgamesh_Heaven's_Feel_Movie.png" class="revealed-img">
 
     </div>
 
@@ -1537,7 +1539,7 @@
 
     <div id="Dis2">
 
-        <img alt="toto" src="../assets/img/RiderMedusaStage1.png " style="height: 511px;">
+        <img alt="toto" src="../assets/img/RiderMedusaStage1.png " class="revealed-img">
 
     </div>
 
@@ -2784,7 +2786,7 @@
 
     <div id="DisImg3">
 
-        <img alt="toto" src="../assets/img/Illyasviel_ufo_art.png" style="height: 511px;">
+        <img alt="toto" src="../assets/img/Illyasviel_ufo_art.png" class="revealed-img">
 
     </div>
 
@@ -2922,7 +2924,7 @@
 
     <div id="Dis4">
 
-        <img alt="toto" src="../assets/img/Berserker.png" style="height: 525px;">
+        <img alt="toto" src="../assets/img/Berserker.png" class="revealed-img">
 
     </div>
 
@@ -3031,7 +3033,7 @@
     </p>
 
     <center>
-        <div style="border: blue solid 1px; width: 350px; height: 50px;">
+        <div style="border: blue solid 1px; max-width: 350px; width: 100%; padding: 8px; box-sizing: border-box;">
             <span data-i18n="chapter_list"></span><br>
 
             <select id="chap_select_fin" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
@@ -3039,6 +3041,8 @@
             </select>
         </div>
     </center>
+
+    </div><!-- /.chapter-container -->
 
 </body>
 
