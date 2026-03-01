@@ -29,6 +29,12 @@
   "credits_author": "Nom de l’auteur : ",
   "credits_link": "Lien de l’histoire : ",
 
+  "message_title": "Un mot avant de partir",
+  "message_text1": "Si vous avez apprécié cette histoire — ses personnages, ses rebondissements, son univers — alors sachez que tout le mérite revient à une seule personne : <strong>Cybertoy00</strong>, l'auteur original de Fate Genesis. C'est grâce à son talent et à son imagination que cette aventure existe.",
+  "message_text2": "Si cette lecture vous a plu, je vous encourage vraiment à aller le remercier directement sur Fanfiction.net. Un commentaire, un favori, un simple message — ça compte énormément pour un auteur. Il le mérite.",
+  "message_text3": "De mon côté, je ne suis qu'un fan parmi d'autres. J'ai découvert cette histoire il y a longtemps, et elle m'a tellement marqué que j'ai voulu la partager au plus grand nombre. Ce site est ma façon de le faire : en traduisant l'œuvre en français et en la rendant plus immersive et interactive grâce à mes compétences en développement web. Mais l'histoire, le cœur de tout ça, c'est l'œuvre de Cybertoy00.",
+  "message_link": "🙏 Remercier l'auteur sur Fanfiction.net",
+
   "footer_title": "Disclaimer",
   "footer_text": "Tous les médias que vous apercevrez ne m’appartiennent pas. Ils appartiennent respectivement à Sega et Type MOON."
 }
