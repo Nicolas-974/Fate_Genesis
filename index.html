@@ -17,6 +17,29 @@
 
 <body style="zoom: 100%;">
 
+    <!-- Indicateur fléché (index uniquement) -->
+    <div id="panel-hint" title="Options disponibles ici">◄</div>
+    <style>
+        #panel-hint {
+            position: fixed;
+            top: 16px;
+            right: 48px;
+            font-size: 18px;
+            color: #FFD700;
+            cursor: pointer;
+            z-index: 2001;
+            animation: hint-bounce 1.2s ease-in-out infinite;
+            text-shadow: 0 0 6px rgba(255, 215, 0, 0.6);
+            user-select: none;
+            transition: opacity 0.4s ease;
+        }
+
+        @keyframes hint-bounce {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(6px); }
+        }
+    </style>
+
     <div id="theme-panel" aria-expanded="false">
         <div id="theme-handle" title="Ouvrir le panneau">««</div>
         <div id="theme-content" role="region" aria-label="Panneau thème">
@@ -165,6 +188,29 @@
     </footer>
 
     <!-- Scripts -->
+    <script>
+        // Masquer la flèche indicatrice quand on interagit avec le panneau
+        document.addEventListener('DOMContentLoaded', function () {
+            const hint = document.getElementById('panel-hint');
+            const panel = document.getElementById('theme-panel');
+            if (!hint || !panel) return;
+
+            function hideHint() {
+                hint.style.opacity = '0';
+                setTimeout(() => hint.style.display = 'none', 400);
+            }
+
+            hint.addEventListener('click', () => {
+                hideHint();
+                panel.classList.add('open');
+                panel.setAttribute('aria-expanded', 'true');
+                const handle = document.getElementById('theme-handle');
+                if (handle) handle.textContent = '»»';
+            });
+
+            panel.addEventListener('click', hideHint);
+        });
+    </script>
     <script src="disclm/js/widget.js"></script>
     <script src="disclm/js/sound.js"></script>
     <script src="disclm/js/audio.js"></script>
