@@ -11,3 +11,9 @@ sources/
 # Anciennes versions HTML (doublons)
 *_v1.html
 *_v1*.html
+
+# Dossier screenshots
+screenshots/
+
+# Dossier .claude
+.claude/
