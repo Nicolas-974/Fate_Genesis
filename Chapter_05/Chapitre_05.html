@@ -1,0 +1,2100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/games-cufonfonts-webfont/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style_for_img.css">
+
+    <script src="../js/widget.js"></script>
+    <script src="../js/sound.js"></script>
+
+    <script src="../js/i18next.min.js" defer></script>
+
+    <script src="../js/i18n.js" defer></script>
+
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+
+    <title>Chapitre 05</title>
+</head>
+
+<body>
+
+    <div id="theme-panel" aria-expanded="false">
+        <div id="theme-handle" title="Ouvrir le panneau">««</div>
+        <div id="theme-content" role="region" aria-label="Panneau thème">
+            <span id="btn-cycle" class="panel-icon" title="Changer le thème">🎨</span>
+            <span id="btn-translate" class="panel-icon" title="Traduire">🌐</span>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
+    <div class="chapter-container">
+
+    <center>
+        <div style="border: blue solid 1px; max-width: 350px; width: 100%; padding: 8px; box-sizing: border-box;">
+            <span data-i18n="chapter_list"></span><br>
+
+            <select id="chap_select_debut" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            </select>
+        </div>
+    </center>
+
+    <p>
+        <center>
+            <h2><u data-i18n="project_title"></u></h2>
+        </center>
+    </p>
+
+    <p>
+        <center><u data-i18n="chapter_title"></u></center>
+    </p>
+
+    <!-- === BLOC 1 : Knuckles à l'école, recherche nocturne === -->
+
+    <p>
+        <span data-i18n="p1a"></span>
+        <a class="imag card">
+            <i data-i18n="eggman_name"></i>
+            <span><img alt="Eggman" src="../assets/img/SDT_DoctorEggmanRender.png"></span>
+        </a>
+        <span data-i18n="p1b"></span>
+    </p>
+
+    <p data-i18n="p2"></p>
+
+    <p>
+        <span data-i18n="p3a"></span>
+        <a class="imag card">
+            <i data-i18n="knuckles_name"></i>
+            <span><img alt="Knuckles" src="../assets/img/Frontiers_Knuckles.png"></span>
+        </a>
+        <span data-i18n="p3b"></span>
+        <a class="imag card">
+            <i data-i18n="sonic_name"></i>
+            <span><img alt="Sonic" src="../assets/img/SXSG_Sonic.png"></span>
+        </a>
+        <span data-i18n="p3c"></span>
+        <a class="imag card">
+            <i data-i18n="tails_name"></i>
+            <span><img alt="Tails" src="../assets/img/SRCTails.png"></span>
+        </a>
+        <span data-i18n="p3d"></span>
+        <a class="imag card">
+            <i data-i18n="amy_name"></i>
+            <span><img alt="Amy" src="../assets/img/SRCAmy.png"></span>
+        </a>
+        <span data-i18n="p3e"></span>
+        <a class="imag card">
+            <i data-i18n="rin_name"></i>
+            <span><img alt="Rin" src="../assets/img/Rin_Heaven's_Feel_Movie.png"></span>
+        </a>
+        <span data-i18n="p3f"></span>
+        <a class="imag card">
+            <i data-i18n="archer_name"></i>
+            <span><img alt="Archer" src="../assets/img/archer.png"></span>
+        </a>
+        <span data-i18n="p3g"></span>
+    </p>
+
+    <p>
+        <i data-i18n="knuckles_line1"></i><br>
+        <span data-i18n="knuckles_line1b"></span>
+    </p>
+
+    <p><i data-i18n="knuckles_line2"></i></p>
+
+    <p>
+        <span data-i18n="p4a"></span>
+        <a class="imag card">
+            <i data-i18n="chaos_emeralds_name"></i>
+            <span><img alt="Chaos Emeralds" src="../assets/img/SFSBChaosEmeraldsArtwork.PNG.png"></span>
+        </a>
+        <span data-i18n="p4b"></span>
+    </p>
+
+    <p><b data-i18n="knuckles_line3"></b></p>
+
+    <p data-i18n="p5"></p>
+
+    <!-- === BLOC 2 : Rider vs Knuckles à l'école === -->
+
+    <hr>
+
+    <div id="zone2" class="audio-zone">
+        <audio id="audioPlayer2" src="../assets/audio/Fatestay night [Réalta Nua] (PS Vita) OST - Confrontation (2012).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause2">▶️</button>
+            <input type="range" id="progress2" value="0" step="1">
+            <input type="range" id="volume2" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title2"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <span data-i18n="p6a"></span>
+        <a class="imag card">
+            <i data-i18n="rider_name"></i>
+            <span><img alt="Rider" src="../assets/img/RiderMedusaStage1.png"></span>
+        </a>
+        <span data-i18n="p6b"></span>
+    </p>
+
+    <p>
+        <span data-i18n="p7a"></span>
+        <a class="imag card">
+            <i data-i18n="shinji_name"></i>
+            <span><img alt="Shinji" src="../assets/img/Matou_shinji.png"></span>
+        </a>
+        <span data-i18n="p7b"></span>
+        <a class="imag card">
+            <i data-i18n="saber_name"></i>
+            <span><img alt="Saber" src="../assets/img/Saber_Heaven's_Feel_Movie_1.png"></span>
+        </a>
+        <span data-i18n="p7c"></span>
+        <a class="imag card">
+            <i data-i18n="shirou_name"></i>
+            <span><img alt="Shirou" src="../assets/img/shirou_emiya__render__7__by_wtfbooomsh_dfv8y3m-fullview.png"></span>
+        </a>
+        <span data-i18n="p7d"></span>
+        <a class="imag card">
+            <i data-i18n="sakura_name"></i>
+            <span><img alt="Sakura" src="../assets/img/Sakura_Heaven's_Feel_Movie_3_(uniform).png"></span>
+        </a>
+        <span data-i18n="p7e"></span>
+    </p>
+
+    <p data-i18n="p8"></p>
+
+    <p>
+        <i data-i18n="rider_line1"></i><br>
+        <span data-i18n="rider_line1b"></span>
+    </p>
+
+    <p data-i18n="p9"></p>
+
+    <p data-i18n="p10"></p>
+
+    <p>
+        <i data-i18n="rider_line2"></i><br>
+        <span data-i18n="rider_line2b"></span>
+    </p>
+
+    <p data-i18n="p11"></p>
+
+    <p data-i18n="p12"></p>
+
+    <hr>
+
+    <p>
+        <span data-i18n="p13a"></span>
+        <a class="imag card">
+            <i data-i18n="biolizard_name"></i>
+            <span><img alt="Biolizard" src="../assets/img/SxSG_Art_Book_-_Biolizard_Battle_Art.png"></span>
+        </a>
+        <span data-i18n="p13b"></span>
+    </p>
+
+    <p data-i18n="p14"></p>
+
+    <p><i data-i18n="p15"></i></p>
+
+    <p data-i18n="p16"></p>
+
+    <p data-i18n="p17"></p>
+
+    <p data-i18n="p18"></p>
+
+    <p data-i18n="p19"></p>
+
+    <p data-i18n="p20"></p>
+
+    <p>
+        <b data-i18n="knuckles_line4"></b><br>
+        <span data-i18n="knuckles_line4b"></span>
+    </p>
+
+    <p>
+        <span data-i18n="p21a"></span>
+        <a class="imag card">
+            <i data-i18n="rouge_name"></i>
+            <span><img alt="Rouge" src="../assets/img/SXSGRouge.png"></span>
+        </a>
+        <span data-i18n="p21b"></span>
+    </p>
+
+    <p><b data-i18n="knuckles_line5"></b></p>
+
+    <p data-i18n="p22"></p>
+
+    <p data-i18n="p23"></p>
+
+    <p><i data-i18n="rider_line3"></i></p>
+
+    <!-- === BLOC 3 : Réunion stratégique chez Shirou === -->
+
+    <hr>
+
+    <p><b data-i18n="rin_line1"></b></p>
+
+    <div id="zone3" class="audio-zone">
+        <audio id="audioPlayer3" src="../assets/audio/BGM extra - Fate_stay night OST [KATE].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause3">▶️</button>
+            <input type="range" id="progress3" value="0" step="1">
+            <input type="range" id="volume3" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title3"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p24"></p>
+
+    <p>
+        <b data-i18n="shirou_line1"></b><br>
+        <span data-i18n="shirou_line1b"></span>
+    </p>
+
+    <p data-i18n="p25"></p>
+
+    <p data-i18n="archer_line1"></p>
+
+    <p data-i18n="p26"></p>
+
+    <p>
+        <b data-i18n="rin_line2"></b><br>
+        <span data-i18n="rin_line2b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="tails_line1"></b><br>
+        <span data-i18n="tails_line1b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line2"></b></p>
+
+    <p>
+        <b data-i18n="rin_line3"></b><br>
+        <span data-i18n="rin_line3b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line4"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line1"></b><br>
+        <span data-i18n="sonic_line1b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin_line5"></b><br>
+        <span data-i18n="rin_line5b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line6"></b></p>
+
+    <p>
+        <b data-i18n="tails_line3"></b><br>
+        <span data-i18n="tails_line3b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line4"></b></p>
+
+    <p>
+        <b data-i18n="shirou_line2"></b><br>
+        <span data-i18n="shirou_line2b"></span>
+    </p>
+
+    <p><b data-i18n="shirou_line3"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line2"></b><br>
+        <span data-i18n="sonic_line2b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line3"></b></p>
+
+    <p>
+        <b data-i18n="saber_line1"></b><br>
+        <span data-i18n="saber_line1b"></span>
+    </p>
+
+    <p><b data-i18n="saber_line2"></b></p>
+
+    <p>
+        <b data-i18n="rin_line7"></b><br>
+        <span data-i18n="rin_line7b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line8"></b></p>
+
+    <p data-i18n="p27"></p>
+
+    <p>
+        <b data-i18n="sonic_line4"></b><br>
+        <span data-i18n="sonic_line4b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line5"></b></p>
+
+    <p data-i18n="p28"></p>
+
+    <p><b data-i18n="rin_line9"></b></p>
+
+    <p>
+        <b data-i18n="shirou_line4"></b><br>
+        <span data-i18n="shirou_line4b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="shirou_line5a"></b>
+        <a class="imag card">
+            <i data-i18n="kuzuki_name"></i>
+            <span><img alt="Kuzuki" src="../assets/img/Souichiroumugshot.png"></span>
+        </a>
+        <b data-i18n="shirou_line5b"></b>
+    </p>
+
+    <p>
+        <b data-i18n="rin_line10"></b><br>
+        <span data-i18n="rin_line10b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line11"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line6"></b><br>
+        <span data-i18n="sonic_line6b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line7"></b></p>
+
+    <p>
+        <b data-i18n="rin_line12"></b><br>
+        <span data-i18n="rin_line12b"></span>
+    </p>
+
+    <p data-i18n="rin_line13"></p>
+
+    <p>
+        <b data-i18n="saber_line3"></b><br>
+        <span data-i18n="saber_line3b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin_line14"></b><br>
+        <span data-i18n="rin_line14b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line15"></b></p>
+
+    <p>
+        <b data-i18n="archer_line2"></b><br>
+        <span data-i18n="archer_line2b"></span>
+    </p>
+
+    <p><b data-i18n="archer_line3"></b></p>
+
+    <p>
+        <b data-i18n="tails_line5"></b><br>
+        <span data-i18n="tails_line5b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line6"></b></p>
+
+    <!-- === BLOC 4 : Miles Electric, détection d'énergie === -->
+
+    <p data-i18n="p29"></p>
+
+    <p>
+        <b data-i18n="tails_line7"></b><br>
+        <span data-i18n="tails_line7b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line8"></b></p>
+
+    <p data-i18n="p30"></p>
+
+    <p>
+        <b data-i18n="shirou_line6"></b><br>
+        <span data-i18n="shirou_line6b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="archer_line4"></b><br>
+        <span data-i18n="archer_line4b"></span>
+    </p>
+
+    <p><b data-i18n="archer_line5"></b></p>
+
+    <p data-i18n="p31"></p>
+
+    <p>
+        <b data-i18n="tails_line9"></b><br>
+        <span data-i18n="tails_line9b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line10"></b></p>
+
+    <p>
+        <b data-i18n="rin_line16"></b><br>
+        <span data-i18n="rin_line16b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin_line17a"></b>
+        <a class="imag card">
+            <i data-i18n="zouken_name"></i>
+            <span><img alt="Zouken" src="../assets/img/Matou_zouken.png"></span>
+        </a>
+        <b data-i18n="rin_line17b"></b>
+    </p>
+
+    <p data-i18n="p32"></p>
+
+    <p data-i18n="p33"></p>
+
+    <p><b data-i18n="rin_line18"></b></p>
+
+    <p data-i18n="p34"></p>
+
+    <p><b data-i18n="rin_line19"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line8"></b><br>
+        <span data-i18n="sonic_line8b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="saber_line4"></b><br>
+        <span data-i18n="saber_line4b"></span>
+    </p>
+
+    <p><b data-i18n="saber_line5"></b></p>
+
+    <p><b data-i18n="tails_line11"></b></p>
+
+    <p data-i18n="p35"></p>
+
+    <p><b data-i18n="tails_line12"></b></p>
+
+    <p>
+        <b data-i18n="archer_line6"></b><br>
+        <span data-i18n="archer_line6b"></span>
+    </p>
+
+    <p><b data-i18n="archer_line7"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line9"></b><br>
+        <span data-i18n="sonic_line9b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line10"></b></p>
+
+    <p data-i18n="p36"></p>
+
+    <p>
+        <b data-i18n="rin_line20"></b><br>
+        <span data-i18n="rin_line20b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="rin_line21a"></b>
+        <a class="imag card">
+            <i data-i18n="kotomine_name"></i>
+            <span><img alt="Kotomine" src="../assets/img/Kirei_Heaven's_Feel_Movie.png"></span>
+        </a>
+        <b data-i18n="rin_line21b"></b>
+    </p>
+
+    <p data-i18n="p37"></p>
+
+    <p data-i18n="p38"></p>
+
+    <p><b data-i18n="sonic_line11"></b></p>
+
+    <p data-i18n="p39"></p>
+
+    <p><b data-i18n="sonic_line12"></b></p>
+
+    <p>
+        <b data-i18n="rin_line22"></b><br>
+        <span data-i18n="rin_line22b"></span>
+    </p>
+
+    <p data-i18n="p40"></p>
+
+    <div id="zone4" class="audio-zone">
+        <audio id="audioPlayer4" src="../assets/audio/Fuji-nee Theme.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause4">▶️</button>
+            <input type="range" id="progress4" value="0" step="1">
+            <input type="range" id="volume4" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title4"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <b data-i18n="archer_line8"></b><br>
+        <span data-i18n="archer_line8b"></span>
+    </p>
+
+    <p data-i18n="p41"></p>
+
+    <p data-i18n="p42"></p>
+
+    <p>
+        <b data-i18n="rin_line23"></b><br>
+        <span data-i18n="rin_line23b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line24"></b></p>
+
+    <p>
+        <b data-i18n="tails_line13"></b><br>
+        <span data-i18n="tails_line13b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line14"></b></p>
+
+    <p data-i18n="p43"></p>
+
+    <p><b data-i18n="tails_line15"></b></p>
+
+    <p>
+        <b data-i18n="shirou_line7"></b><br>
+        <span data-i18n="shirou_line7b"></span>
+    </p>
+
+    <p data-i18n="p44"></p>
+
+    <p>
+        <b data-i18n="archer_line9"></b><br>
+        <span data-i18n="archer_line9b"></span>
+    </p>
+
+    <p><b data-i18n="archer_line10"></b></p>
+
+    <p>
+        <b data-i18n="shirou_line8"></b><br>
+        <span data-i18n="shirou_line8b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line25"></b></p>
+
+    <p data-i18n="p45"></p>
+
+    <p><b data-i18n="rin_line26"></b></p>
+
+    <p>
+        <b data-i18n="saber_line6"></b><br>
+        <span data-i18n="saber_line6b"></span>
+    </p>
+
+    <p><b data-i18n="saber_line7"></b></p>
+
+    <p data-i18n="p46"></p>
+
+    <p data-i18n="p47"></p>
+
+    <p data-i18n="p48"></p>
+
+    <p data-i18n="p49"></p>
+
+    <p data-i18n="p50"></p>
+
+    <!-- === BLOC 5 : Knuckles vs Rider - impasse et combat === -->
+
+    <hr>
+
+    <div id="zone5" class="audio-zone">
+        <audio id="audioPlayer5" src="../assets/audio/FateStay Night OST - Sonic Barrage.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause5">▶️</button>
+            <input type="range" id="progress5" value="0" step="1">
+            <input type="range" id="volume5" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title5"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p51"></p>
+
+    <p data-i18n="p52"></p>
+
+    <p data-i18n="p53"></p>
+
+    <p><b data-i18n="knuckles_line6"></b></p>
+
+    <p data-i18n="p54"></p>
+
+    <p data-i18n="p55"></p>
+
+    <p>
+        <b data-i18n="knuckles_line7"></b><br>
+        <span data-i18n="knuckles_line7b"></span>
+    </p>
+
+    <p data-i18n="p56"></p>
+
+    <p>
+        <i data-i18n="rider_line4"></i><br>
+        <span data-i18n="rider_line4b"></span>
+    </p>
+
+    <p data-i18n="p57"></p>
+
+    <p data-i18n="p58"></p>
+
+    <p data-i18n="p59"></p>
+
+    <p data-i18n="p60"></p>
+
+    <p data-i18n="p61"></p>
+
+    <p><b data-i18n="p62"></b></p>
+
+    <p data-i18n="p63"></p>
+
+    <p data-i18n="p64"></p>
+
+    <p data-i18n="p65"></p>
+
+    <p data-i18n="p66"></p>
+
+    <p>
+        <b data-i18n="knuckles_line8"></b><br>
+        <span data-i18n="knuckles_line8b"></span>
+    </p>
+
+    <p data-i18n="p67"></p>
+
+    <p><b data-i18n="knuckles_line9"></b></p>
+
+    <p data-i18n="p68"></p>
+
+    <!-- === BLOC 6 : Caster à l'école === -->
+
+    <!-- <div id="zone6" class="audio-zone">
+        <audio id="audioPlayer6" src="../assets/audio/Fate_Hollow Ataraxia OST - Whisper of Darkness.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause6">▶️</button>
+            <input type="range" id="progress6" value="0" step="1">
+            <input type="range" id="volume6" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title6"></span>
+            </div>
+        </div>
+    </div> -->
+
+    <p>
+        <span data-i18n="p69a"></span>
+        <a class="imag card">
+            <i data-i18n="caster_name"></i>
+            <span><img alt="Caster" src="../assets/img/caster.png"></span>
+        </a>
+        <span data-i18n="p69b"></span>
+    </p>
+
+    <p data-i18n="p70"></p>
+
+    <p data-i18n="p71"></p>
+
+    <p data-i18n="p72"></p>
+
+    <!-- === BLOC 7 : Assassin et Sonic au temple === -->
+
+    <hr>
+
+    <div id="zone7" class="audio-zone">
+        <audio id="audioPlayer7" src="../assets/audio/Fatestay night OST - Beyond Remembrance.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause7">▶️</button>
+            <input type="range" id="progress7" value="0" step="1">
+            <input type="range" id="volume7" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title7"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <span data-i18n="p73a"></span>
+        <a class="imag card">
+            <i data-i18n="assassin_name"></i>
+            <span><img alt="Assassin" src="../assets/img/Sasaki_sprite.png"></span>
+        </a>
+        <span data-i18n="p73b"></span>
+    </p>
+
+    <p data-i18n="p74"></p>
+
+    <p>
+        <i data-i18n="assassin_line1"></i><br>
+        <span data-i18n="assassin_line1b"></span>
+    </p>
+
+    <p data-i18n="p75"></p>
+
+    <p>
+        <b data-i18n="sonic_line13"></b><br>
+        <span data-i18n="sonic_line13b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line14"></b></p>
+
+    <p>
+        <b data-i18n="assassin_line2"></b><br>
+        <span data-i18n="assassin_line2b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line15"></b></p>
+
+    <p>
+        <b data-i18n="assassin_line3"></b><br>
+        <span data-i18n="assassin_line3b"></span>
+    </p>
+
+    <p><b data-i18n="assassin_line4"></b></p>
+
+    <p data-i18n="p76"></p>
+
+    <p data-i18n="p77"></p>
+
+    <p><b data-i18n="sonic_line16"></b></p>
+
+    <p data-i18n="p78"></p>
+
+    <p>
+        <b data-i18n="assassin_line5a"></b>
+        <a class="imag card">
+            <i data-i18n="sasaki_name"></i>
+            <span><img alt="Sasaki Kojirou" src="../assets/img/Sasaki_sprite.png"></span>
+        </a>
+        <b data-i18n="assassin_line5b"></b>
+    </p>
+
+    <p data-i18n="p79"></p>
+
+    <p><b data-i18n="sonic_line17"></b></p>
+
+    <p>
+        <b data-i18n="assassin_line6"></b><br>
+        <span data-i18n="assassin_line6b"></span>
+    </p>
+
+    <p data-i18n="p80"></p>
+
+    <p><b data-i18n="sonic_line18"></b></p>
+
+    <p data-i18n="p81"></p>
+
+    <p><b data-i18n="sonic_line19"></b></p>
+
+    <p data-i18n="p82"></p>
+
+    <p><b data-i18n="assassin_line7"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line20"></b><br>
+        <span data-i18n="sonic_line20b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line21"></b></p>
+
+    <p><b data-i18n="assassin_line8"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line22"></b><br>
+        <span data-i18n="sonic_line22b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line23"></b></p>
+
+    <p data-i18n="assassin_line9"></p>
+
+    <p>
+        <b data-i18n="sonic_line24"></b><br>
+        <span data-i18n="sonic_line24b"></span>
+    </p>
+
+    <!-- === BLOC 8 : Tornado, Extreme Gear, Ring Synthesizer === -->
+
+    <hr>
+
+    <div id="zone8" class="audio-zone">
+        <audio id="audioPlayer8" src="../assets/audio/Fate_stay night OST - A Pleasant Scenery.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause8">▶️</button>
+            <input type="range" id="progress8" value="0" step="1">
+            <input type="range" id="volume8" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title8"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p83"></p>
+
+    <p data-i18n="p84"></p>
+
+    <p>
+        <i data-i18n="rin_line27"></i><br>
+        <span data-i18n="rin_line27b"></span>
+    </p>
+
+    <p><i data-i18n="rin_line28"></i></p>
+
+    <p>
+        <i data-i18n="archer_line11"></i><br>
+        <span data-i18n="archer_line11b"></span>
+    </p>
+
+    <p><i data-i18n="rin_line29"></i></p>
+
+    <p><i data-i18n="archer_line12"></i></p>
+
+    <p><i data-i18n="rin_line30"></i></p>
+
+    <p data-i18n="p85"></p>
+
+    <p>
+        <b data-i18n="tails_line16"></b><br>
+        <span data-i18n="tails_line16b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line17"></b></p>
+
+    <p data-i18n="p86"></p>
+
+    <p>
+        <b data-i18n="tails_line18"></b><br>
+        <span data-i18n="tails_line18b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line19"></b></p>
+
+    <p data-i18n="p87"></p>
+
+    <p data-i18n="p88"></p>
+
+    <p><b data-i18n="tails_line20"></b></p>
+
+    <p>
+        <b data-i18n="shirou_line9"></b><br>
+        <span data-i18n="shirou_line9b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="shirou_line10"></b><br>
+        <span data-i18n="shirou_line10b"></span>
+    </p>
+
+    <p><b data-i18n="shirou_line11"></b></p>
+
+    <p>
+        <b data-i18n="tails_line21"></b><br>
+        <span data-i18n="tails_line21b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line22"></b></p>
+
+    <p><b data-i18n="shirou_line12"></b></p>
+
+    <p>
+        <b data-i18n="tails_line23a"></b>
+        <a class="imag card">
+            <i data-i18n="extreme_gear_name"></i>
+            <span><img alt="Extreme Gear" src="../assets/img/Exgear_bluestar.png"></span>
+        </a>
+        <b data-i18n="tails_line23b"></b><br>
+        <span data-i18n="tails_line23c"></span>
+    </p>
+
+    <p data-i18n="p89"></p>
+
+    <p><b data-i18n="tails_line24"></b></p>
+
+    <p data-i18n="p90"></p>
+
+    <p><b data-i18n="shirou_line13"></b></p>
+
+    <p data-i18n="p91"></p>
+
+    <p><b data-i18n="tails_line25"></b></p>
+
+    <p>
+        <b data-i18n="rin_line31"></b><br>
+        <span data-i18n="rin_line31b"></span>
+    </p>
+
+    <p data-i18n="p92"></p>
+
+    <p>
+        <b data-i18n="rin_line32"></b><br>
+        <span data-i18n="rin_line32b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line33"></b></p>
+
+    <p data-i18n="p93"></p>
+
+    <p><b data-i18n="tails_line26"></b></p>
+
+    <p>
+        <span data-i18n="p94"></span>
+        <a class="imag card">
+            <i data-i18n="extreme_gear_tails"></i>
+            <span><img alt="Extreme Gear" src="../assets/img/Exgear_yellowtail.png"></span>
+        </a>
+        <span data-i18n="p94b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="tails_line27"></b><br>
+        <span data-i18n="tails_line27b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line28"></b></p>
+
+    <div id="zone9" class="audio-zone">
+        <audio id="audioPlayer9" src="../assets/audio/Sonic Speed Riders (Instrumental).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause9">▶️</button>
+            <input type="range" id="progress9" value="0" step="1">
+            <input type="range" id="volume9" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title9"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p95"></p>
+
+    <p><b data-i18n="shirou_line14"></b></p>
+
+    <p><b data-i18n="archer_line13"></b></p>
+
+    <p data-i18n="p96"></p>
+
+    <p><b data-i18n="saber_line8"></b></p>
+
+    <p data-i18n="p97"></p>
+
+    <p>
+        <b data-i18n="rin_line34"></b><br>
+        <span data-i18n="rin_line34b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line35"></b></p>
+
+    <p>
+        <i data-i18n="archer_line14"></i><br>
+        <span data-i18n="archer_line14b"></span>
+    </p>
+
+    <!-- === BLOC 9 : Rin vs Tails, Ring Synthesizer === -->
+
+
+    <p data-i18n="p98"></p>
+
+    <p>
+        <b data-i18n="rin_line36"></b><br>
+        <span data-i18n="rin_line36b"></span>
+    </p>
+
+    <p data-i18n="p99"></p>
+
+    <p>
+        <b data-i18n="tails_line29"></b><br>
+        <span data-i18n="tails_line29b"></span>
+    </p>
+
+    <p data-i18n="p100"></p>
+
+    <p><b data-i18n="tails_line30"></b></p>
+
+    <p data-i18n="p101"></p>
+
+    <p><b data-i18n="rin_line37"></b></p>
+
+    <p>
+        <b data-i18n="tails_line31"></b><br>
+        <span data-i18n="tails_line31b"></span>
+    </p>
+
+    <p><b data-i18n="tails_line32"></b></p>
+
+    <p>
+        <b data-i18n="archer_line15"></b><br>
+        <span data-i18n="archer_line15b"></span>
+    </p>
+
+    <p data-i18n="p102"></p>
+
+    <p>
+        <b data-i18n="rin_line38"></b><br>
+        <span data-i18n="rin_line38b"></span>
+    </p>
+
+    <p><b data-i18n="rin_line39"></b></p>
+
+    <p data-i18n="p103"></p>
+
+    <p><b data-i18n="tails_line33"></b></p>
+
+    <p data-i18n="p104"></p>
+
+    <p><b data-i18n="tails_line34"></b></p>
+
+    <p data-i18n="p105"></p>
+
+    <p data-i18n="p106"></p>
+
+    <p><b data-i18n="rin_line40"></b></p>
+
+    <p data-i18n="p107"></p>
+
+    <p>
+        <b data-i18n="archer_line16"></b><br>
+        <span data-i18n="archer_line16b"></span>
+    </p>
+
+    <p data-i18n="p108"></p>
+
+    <p data-i18n="p109"></p>
+
+    <p><b data-i18n="tails_line35"></b></p>
+
+    <p data-i18n="p110"></p>
+
+    <p><b data-i18n="tails_line36"></b></p>
+
+    <p data-i18n="p111"></p>
+
+    <p><b data-i18n="shirou_line15"></b></p>
+
+    <p>
+        <b data-i18n="rin_line41"></b><br>
+        <span data-i18n="rin_line41b"></span>
+    </p>
+
+    <p data-i18n="p112"></p>
+
+    <p><b data-i18n="rin_line42"></b></p>
+
+    <p data-i18n="p113"></p>
+
+    <p><b data-i18n="tails_line37"></b></p>
+
+    <p>
+        <b data-i18n="archer_line17"></b><br>
+        <span data-i18n="archer_line17b"></span>
+    </p>
+
+    <p data-i18n="p114"></p>
+
+    <p data-i18n="p115"></p>
+
+    <p>
+        <b data-i18n="saber_line9"></b><br>
+        <span data-i18n="saber_line9b"></span>
+    </p>
+
+    <p><b data-i18n="saber_line10"></b></p>
+
+    <p data-i18n="p116"></p>
+
+    <p><b data-i18n="tails_line38"></b></p>
+
+    <p><b data-i18n="saber_line11"></b></p>
+
+    <p><b data-i18n="tails_line39"></b></p>
+
+    <p data-i18n="p117"></p>
+
+    <p><b data-i18n="saber_line12"></b></p>
+
+    <p>
+        <b data-i18n="archer_line18"></b><br>
+        <span data-i18n="archer_line18b"></span>
+    </p>
+
+    <p><b data-i18n="archer_line19"></b></p>
+
+    <p data-i18n="p118"></p>
+
+    <p>
+        <i data-i18n="saber_line13"></i><br>
+        <span data-i18n="saber_line13b"></span>
+    </p>
+
+    <p data-i18n="p119"></p>
+
+    <p data-i18n="p120"></p>
+
+    <p><b data-i18n="tails_line40"></b></p>
+
+    <p>
+        <b><i data-i18n="sonic_line25"></i></b><br>
+        <span data-i18n="sonic_line25b"></span>
+    </p>
+
+    <p><b><i data-i18n="sonic_line26"></i></b></p>
+
+    <p data-i18n="p121"></p>
+
+    <p><i data-i18n="archer_line20"></i></p>
+
+    <p data-i18n="p122"></p>
+
+    <hr>
+
+    <p>
+        <b><i data-i18n="saber_line14"></i></b><br>
+        <span data-i18n="saber_line14b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="sonic_line27"></b><br>
+        <span data-i18n="sonic_line27b"></span>
+    </p>
+
+    <p>
+        <b><i data-i18n="archer_line21"></i></b><br>
+        <span data-i18n="archer_line21b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="sonic_line28"></b><br>
+        <span data-i18n="sonic_line28b"></span>
+    </p>
+
+    <p data-i18n="p123"></p>
+
+    <p><b data-i18n="sonic_line29"></b></p>
+
+    <p data-i18n="p124"></p>
+
+    <p><b data-i18n="tails_line41"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line30"></b><br>
+        <span data-i18n="sonic_line30b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line31"></b></p>
+
+    <p data-i18n="p125"></p>
+
+    <p><b data-i18n="sonic_line32"></b></p>
+
+    <p data-i18n="p126"></p>
+
+    <!-- === BLOC 10 : Lancer vs Sonic, confrontation === -->
+
+    <hr>
+
+    <div id="zone10" class="audio-zone">
+        <audio id="audioPlayer10" src="../assets/audio/Fate_stay night [Réalta Nua] (PS Vita) OST - into the night (2012).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause10">▶️</button>
+            <input type="range" id="progress10" value="0" step="1">
+            <input type="range" id="volume10" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title10"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <a class="imag card">
+            <i data-i18n="lancer_name2"></i>
+            <span><img alt="Lancer" src="../assets/img/LancerCuChuGOStage1.png"></span>
+        </a>
+        <span data-i18n="p127"></span>
+    </p>
+
+    <p data-i18n="p128"></p>
+
+    <p data-i18n="p129"></p>
+
+    <p>
+        <i data-i18n="kotomine_line1"></i><br>
+        <span data-i18n="kotomine_line1b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="lancer_line1"></b><br>
+        <span data-i18n="lancer_line1b"></span>
+    </p>
+
+    <p><b data-i18n="lancer_line2"></b></p>
+
+    <p data-i18n="p130"></p>
+
+    <p>
+        <i data-i18n="kotomine_line2"></i><br>
+        <span data-i18n="kotomine_line2b"></span>
+    </p>
+
+    <p><i data-i18n="kotomine_line3"></i></p>
+
+    <p>
+        <b data-i18n="lancer_line3"></b><br>
+        <span data-i18n="lancer_line3b"></span>
+    </p>
+
+    <p><b data-i18n="lancer_line4"></b></p>
+
+    <p><b data-i18n="sonic_line33"></b></p>
+
+    <p data-i18n="p131"></p>
+
+    <p>
+        <b data-i18n="lancer_line5"></b><br>
+        <span data-i18n="lancer_line5b"></span>
+    </p>
+
+    <p data-i18n="p132"></p>
+
+    <p>
+        <b data-i18n="femme_line1"></b><br>
+        <span data-i18n="femme_line1b"></span>
+    </p>
+
+    <p><b data-i18n="femme_line2"></b></p>
+
+    <p data-i18n="p133"></p>
+
+    <p><b data-i18n="sonic_line34"></b></p>
+
+    <p data-i18n="p134"></p>
+
+    <p data-i18n="p135"></p>
+
+    <p><b data-i18n="lancer_line6"></b></p>
+
+    <p data-i18n="p136"></p>
+
+    <p>
+        <b data-i18n="sonic_line35"></b><br>
+        <span data-i18n="sonic_line35b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line36"></b></p>
+
+    <p data-i18n="p137"></p>
+
+    <p><b data-i18n="lancer_line7"></b></p>
+
+    <p>
+        <b data-i18n="sonic_line37"></b><br>
+        <span data-i18n="sonic_line37b"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line38"></b></p>
+
+    <p data-i18n="p138"></p>
+
+    <p><b data-i18n="lancer_line8"></b></p>
+
+    <div id="zone1" class="audio-zone">
+        <audio id="audioPlayer1" src="../assets/audio/The Supernatural (Final Chase) - Sonic Adventure 2 [OST].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause1">▶️</button>
+            <input type="range" id="progress1" value="0" step="1">
+            <input type="range" id="volume1" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title1"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p139"></p>
+
+    <p data-i18n="p140"></p>
+
+    <p data-i18n="p141"></p>
+
+    <p>
+        <b data-i18n="lancer_line9"></b><br>
+        <span data-i18n="lancer_line9b"></span>
+    </p>
+
+    <p data-i18n="p142"></p>
+
+    <p>
+        <i data-i18n="sonic_thought1"></i><br>
+        <span data-i18n="sonic_thought1b"></span>
+    </p>
+
+    <p><i data-i18n="sonic_thought2"></i></p>
+
+    <!-- === BLOC 11 : Amy et Bazett, marche nocturne === -->
+
+    <hr>
+
+    <div id="zone11" class="audio-zone">
+        <audio id="audioPlayer11" src="../assets/audio/Windmill Isle (Night) - Sonic Unleashed [OST].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause11">▶️</button>
+            <input type="range" id="progress11" value="0" step="1">
+            <input type="range" id="volume11" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title11"></span>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <b data-i18n="amy_line1"></b><br>
+        <span data-i18n="amy_line1b"></span>
+        <a class="imag card">
+            <i data-i18n="amy_name2"></i>
+            <span><img alt="Amy" src="../assets/img/SRCAmy.png"></span>
+        </a>
+        <span data-i18n="amy_line1c"></span>
+    </p>
+
+    <p>
+        <b data-i18n="bazett_line1"></b><br>
+        <span data-i18n="bazett_line1b"></span>
+        <a class="imag card">
+            <i data-i18n="bazett_name"></i>
+            <span><img alt="Bazett" src="../assets/img/Bazett_Takashi_Takeuchi_character_select.png"></span>
+        </a>
+        <span data-i18n="bazett_line1c"></span>
+    </p>
+
+    <p><b data-i18n="amy_line2"></b></p>
+
+    <p data-i18n="p143a"></p>
+
+    <p>
+        <span data-i18n="p144a"></span>
+        <a class="imag card">
+            <i data-i18n="elmelloi_name"></i>
+            <span><img alt="Lord El Melloi II" src="../assets/img/CasterZhugeLiangStage1.png"></span>
+        </a>
+        <span data-i18n="p144b"></span>
+        <br>
+        <a class="imag card">
+            <i data-i18n="rider_zero_name"></i>
+            <span><img alt="Rider Zero" src="../assets/img/ZeroRider.png"></span>
+        </a>
+        <span data-i18n="p144c"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy_line3"></b><br>
+        <span data-i18n="amy_line3b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line4"></b></p>
+
+    <p data-i18n="p145"></p>
+
+    <p data-i18n="p146"></p>
+
+    <p>
+        <b data-i18n="amy_line5"></b><br>
+        <span data-i18n="amy_line5b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line6"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line2"></b><br>
+        <span data-i18n="bazett_line2b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line3"></b></p>
+
+    <p data-i18n="p147"></p>
+
+    <p><b data-i18n="bazett_line4"></b></p>
+
+    <p data-i18n="p148"></p>
+
+    <p><b data-i18n="amy_line7"></b></p>
+
+    <!-- === BLOC 12 : Egg Pawns, animalerie === -->
+
+    <p>
+        <span data-i18n="p149a"></span>
+        <a class="imag card">
+            <i data-i18n="eggpawn_name"></i>
+            <span><img alt="Egg Pawn" src="../assets/img/TSREggPawnHD.png"></span>
+        </a>
+        <span data-i18n="p149b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy_line8"></b><br>
+        <span data-i18n="amy_line8b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line9"></b></p>
+
+    <p data-i18n="p150"></p>
+
+    <p>
+        <b data-i18n="amy_line10"></b><br>
+        <span data-i18n="amy_line10b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line11"></b></p>
+
+    <p data-i18n="p151"></p>
+
+    <p data-i18n="p152"></p>
+
+    <p>
+        <b data-i18n="bazett_line5"></b><br>
+        <span data-i18n="bazett_line5b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line6"></b></p>
+
+    <p data-i18n="p153"></p>
+
+    <p><b data-i18n="amy_line12"></b></p>
+
+    <p data-i18n="p154"></p>
+
+    <p data-i18n="p155"></p>
+
+    <p><b data-i18n="amy_line13"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line7"></b><br>
+        <span data-i18n="bazett_line7b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line8"></b></p>
+
+    <p>
+        <b data-i18n="amy_line14"></b><br>
+        <span data-i18n="amy_line14b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line15"></b></p>
+
+    <p data-i18n="p156"></p>
+
+    <p data-i18n="p157"></p>
+
+    <p data-i18n="p158"></p>
+
+    <p><b data-i18n="amy_line16"></b></p>
+
+    <p data-i18n="p159"></p>
+
+    <p data-i18n="p160"></p>
+
+    <p>
+        <b data-i18n="amy_line17"></b><br>
+        <span data-i18n="amy_line17b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line18"></b></p>
+
+    <p data-i18n="p161"></p>
+
+    <p data-i18n="p162"></p>
+
+    <p>
+        <b data-i18n="bazett_line9"></b><br>
+        <span data-i18n="bazett_line9b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy_line19"></b><br>
+        <span data-i18n="amy_line19b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line20"></b></p>
+
+    <p data-i18n="p163"></p>
+
+    <!-- === BLOC 13 : Zone Spéciale === -->
+
+    <hr>
+
+    <div id="zone13" class="audio-zone">
+        <audio id="audioPlayer13" src="../assets/audio/Special Stage - Sonic the Hedgehog (1991).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause13">▶️</button>
+            <input type="range" id="progress13" value="0" step="1">
+            <input type="range" id="volume13" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title13"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p164"></p>
+
+    <p data-i18n="p165"></p>
+
+    <p>
+        <b data-i18n="amy_line21"></b><br>
+        <span data-i18n="amy_line21b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line22"></b></p>
+
+    <p data-i18n="p166"></p>
+
+    <p data-i18n="p167"></p>
+
+    <p>
+        <i data-i18n="bazett_thought1"></i><br>
+        <span data-i18n="bazett_thought1b"></span>
+    </p>
+
+    <p><i data-i18n="bazett_thought2"></i></p>
+
+    <p data-i18n="p168"></p>
+
+    <p data-i18n="p169"></p>
+
+    <p>
+        <span data-i18n="p170a"></span>
+    </p>
+
+    <p>
+        <b data-i18n="bazett_line10"></b><br>
+        <span data-i18n="bazett_line10b"></span>
+    </p>
+
+    <p>
+        <span data-i18n="bazett_line11a"></span>
+        <a class="imag card">
+            <i data-i18n="chaos_emerald_name"></i>
+            <span><img alt="Chaos Emerald" src="../assets/img/Purple_emerald_runners.png"></span>
+        </a>
+        <span data-i18n="bazett_line11b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="amy_line23"></b><br>
+        <span data-i18n="amy_line23b"></span>
+    </p>
+
+    <p data-i18n="p171"></p>
+
+    <p><b data-i18n="amy_line24"></b></p>
+
+    <p data-i18n="p172"></p>
+
+    <p data-i18n="p173"></p>
+
+    <p data-i18n="p174"></p>
+
+    <p><b data-i18n="amy_line25"></b></p>
+
+    <p data-i18n="p175"></p>
+
+    <p><b data-i18n="bazett_line12"></b></p>
+
+    <p data-i18n="p176"></p>
+
+    <p data-i18n="p177"></p>
+
+    <p data-i18n="p178"></p>
+
+    <p><b data-i18n="amy_line26"></b></p>
+
+    <p data-i18n="p179"></p>
+
+    <p data-i18n="p180"></p>
+
+    <p><b data-i18n="amy_line27"></b></p>
+
+    <p data-i18n="p181"></p>
+
+    <!-- === BLOC 14 : Avenger, étoiles de mer === -->
+
+    <hr>
+
+    <div id="zone14" class="audio-zone">
+        <audio id="audioPlayer14" src="../assets/audio/FateHollow Ataraxia OST - Whisper of Darkness.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause14">▶️</button>
+            <input type="range" id="progress14" value="0" step="1">
+            <input type="range" id="volume14" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title14"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p182"></p>
+
+    <p>
+        <b data-i18n="amy_line28"></b><br>
+        <span data-i18n="amy_line28b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line29"></b></p>
+
+    <p data-i18n="p183"></p>
+
+    <p>
+        <b data-i18n="avenger_line1"></b><br>
+        <span data-i18n="avenger_line1b"></span>
+        <a class="imag card">
+            <i data-i18n="avenger_name"></i>
+            <span><img alt="Avenger" src="../assets/img/Avenger_Angra.png"></span>
+        </a>
+        <span data-i18n="avenger_line1c"></span>
+    </p>
+
+    <p><b data-i18n="avenger_line2"></b></p>
+
+    <p>
+        <b data-i18n="amy_line30"></b><br>
+        <span data-i18n="amy_line30b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line31"></b></p>
+
+    <p data-i18n="p184"></p>
+
+    <p><b data-i18n="avenger_line3"></b></p>
+
+    <p data-i18n="p185"></p>
+
+    <p>
+        <b data-i18n="amy_line32"></b><br>
+        <span data-i18n="amy_line32b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line33"></b></p>
+
+    <p data-i18n="p186"></p>
+
+    <p><b data-i18n="amy_line34"></b></p>
+
+    <p data-i18n="p187"></p>
+
+    <p data-i18n="p188"></p>
+
+    <p data-i18n="p189"></p>
+
+    <p data-i18n="p190"></p>
+
+    <p data-i18n="p191"></p>
+
+    <p><b data-i18n="avenger_line4"></b></p>
+
+    <p data-i18n="p192"></p>
+
+    <p data-i18n="p193"></p>
+
+    <p>
+        <b data-i18n="avenger_line5"></b><br>
+        <span data-i18n="avenger_line5b"></span>
+    </p>
+
+    <p><b data-i18n="avenger_line6"></b></p>
+
+    <p data-i18n="p194"></p>
+
+    <p><b data-i18n="amy_line35"></b></p>
+
+    <p data-i18n="p195"></p>
+
+    <p><b data-i18n="avenger_line7"></b></p>
+
+    <p data-i18n="p196"></p>
+
+    <p><b data-i18n="avenger_line8"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line13"></b><br>
+        <span data-i18n="bazett_line13b"></span>
+    </p>
+
+    <p data-i18n="p197"></p>
+
+    <p>
+        <b data-i18n="avenger_line9"></b><br>
+        <span data-i18n="avenger_line9b"></span>
+    </p>
+
+    <p><b data-i18n="avenger_line10"></b></p>
+
+    <p data-i18n="p198"></p>
+
+    <p>
+        <b data-i18n="avenger_line11"></b><br>
+        <span data-i18n="avenger_line11b"></span>
+    </p>
+
+    <p><b data-i18n="avenger_line12"></b></p>
+
+    <p data-i18n="p199"></p>
+
+    <p>
+        <b data-i18n="amy_line36"></b><br>
+        <span data-i18n="amy_line36b"></span>
+    </p>
+
+    <p>
+        <b data-i18n="bazett_line14"></b><br>
+        <span data-i18n="bazett_line14b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line15"></b></p>
+
+    <div id="zone12" class="audio-zone">
+        <audio id="audioPlayer12" src="../assets/audio/Boss Battle (Night) - Sonic Unleashed [OST].mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause12">▶️</button>
+            <input type="range" id="progress12" value="0" step="1">
+            <input type="range" id="volume12" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title12"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p200"></p>
+
+    <p>
+        <i data-i18n="amy_thought1"></i><br>
+        <span data-i18n="amy_thought1b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line37"></b></p>
+
+    <p data-i18n="p201"></p>
+
+    <p>
+        <b data-i18n="amy_line38"></b><br>
+        <span data-i18n="amy_line38b"></span>
+    </p>
+
+    <p data-i18n="p202"></p>
+
+    <p data-i18n="p203"></p>
+
+    <p>
+        <b data-i18n="amy_line39"></b><br>
+        <span data-i18n="amy_line39b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line40"></b></p>
+
+    <p data-i18n="p204"></p>
+
+    <p><b data-i18n="amy_line41"></b></p>
+
+    <p data-i18n="p205"></p>
+
+    <p><b data-i18n="amy_line42"></b></p>
+
+    <!-- === BLOC 15 : Sonic vs Lancer - match retour === -->
+
+    <hr>
+
+    <div id="zone15" class="audio-zone">
+        <audio id="audioPlayer15" src="../assets/audio/Fate_stay night [Réalta Nua] (PS Vita) OST - THIS ILLUSION (inst.) (2012 Remaster).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause15">▶️</button>
+            <input type="range" id="progress15" value="0" step="1">
+            <input type="range" id="volume15" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title15"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p206"></p>
+
+    <p data-i18n="p207"></p>
+
+    <p><b data-i18n="femme2_line1"></b></p>
+
+    <p data-i18n="p208"></p>
+
+    <p><b data-i18n="sonic_line39"></b></p>
+
+    <p data-i18n="p209"></p>
+
+    <p><b data-i18n="sonic_line40"></b></p>
+
+    <p data-i18n="p210"></p>
+
+    <p><b data-i18n="sonic_line41"></b></p>
+
+    <p data-i18n="p211"></p>
+
+    <p data-i18n="p212"></p>
+
+    <p data-i18n="p213"></p>
+
+    <p><i data-i18n="sonic_thought3"></i></p>
+
+    <p data-i18n="p214"></p>
+
+    <p><i data-i18n="sonic_thought4"></i></p>
+
+    <p data-i18n="p215"></p>
+
+    <p>
+        <b data-i18n="sonic_line42"></b><br>
+        <span data-i18n="sonic_line42b"></span>
+    </p>
+
+    <p data-i18n="p216"></p>
+
+    <p><b data-i18n="lancer_line10"></b></p>
+
+    <p data-i18n="p217"></p>
+
+    <p><b data-i18n="lancer_line11"></b></p>
+
+
+    <p>
+        <span data-i18n="p218a"></span>
+        <br>
+        <a class="imag card">
+            <i data-i18n="darkgaia_minions_name"></i>
+            <span><img alt="Dark Gaia Minions" src="../assets/img/Dark_Gaia's_Minions.jpg"></span>
+        </a>
+        <span data-i18n="p218b"></span>
+        <a class="imag card">
+            <i data-i18n="darkgaia_name"></i>
+            <span><img alt="Dark Gaia" src="../assets/img/Vlc_2017-06-06_16-29-18-949.png"></span>
+        </a>
+        <span data-i18n="p218c"></span>
+    </p>
+
+    <p><b data-i18n="sonic_line43"></b></p>
+
+    <p data-i18n="p219"></p>
+
+    <p><b data-i18n="sonic_line44"></b></p>
+
+    <p data-i18n="p220"></p>
+
+    <p><b data-i18n="lancer_line12"></b></p>
+
+    <p data-i18n="p221"></p>
+
+    <p><b data-i18n="lancer_line13"></b></p>
+
+    <p data-i18n="p222"></p>
+
+    <p data-i18n="p223"></p>
+
+    <p data-i18n="p224"></p>
+
+    <p><b data-i18n="amy_line43"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line16"></b><br>
+        <span data-i18n="bazett_line16b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line17"></b></p>
+
+    <p>
+        <b data-i18n="amy_line44"></b><br>
+        <span data-i18n="amy_line44b"></span>
+    </p>
+
+    <p data-i18n="p225"></p>
+
+    <p>
+        <b data-i18n="bazett_line18"></b><br>
+        <span data-i18n="bazett_line18b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line19"></b></p>
+
+    <p>
+        <b data-i18n="amy_line45"></b><br>
+        <span data-i18n="amy_line45b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line46"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line20"></b><br>
+        <span data-i18n="bazett_line20b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line21"></b></p>
+
+    <p><b data-i18n="amy_line47"></b></p>
+
+    <p>
+        <b data-i18n="bazett_line22"></b><br>
+        <span data-i18n="bazett_line22b"></span>
+    </p>
+
+    <p><b data-i18n="bazett_line23"></b></p>
+
+    <p>
+        <b data-i18n="amy_line48"></b><br>
+        <span data-i18n="amy_line48b"></span>
+    </p>
+
+    <p><b data-i18n="amy_line49"></b></p>
+
+    <p><b data-i18n="bazett_line24"></b></p>
+
+    <p data-i18n="p226"></p>
+
+    <p data-i18n="p227"></p>
+
+    <p><i data-i18n="bazett_thought3"></i></p>
+
+    <!-- === BLOC 16 : Épilogue Avenger === -->
+
+    <hr>
+
+    <div id="zone16" class="audio-zone">
+        <audio id="audioPlayer16" src="../assets/audio/Forebodings.mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause16">▶️</button>
+            <input type="range" id="progress16" value="0" step="1">
+            <input type="range" id="volume16" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title16"></span>
+            </div>
+        </div>
+    </div>
+
+    <p data-i18n="p228"></p>
+
+    <p data-i18n="p229"></p>
+
+    <p data-i18n="p230"></p>
+
+    <p data-i18n="p231"></p>
+
+    <p><b data-i18n="tbc"></b></p>
+
+    <!-- === BLOC 17 : Tiger Dojo === -->
+
+    <hr>
+
+    <div id="zone17" class="audio-zone">
+        <audio id="audioPlayer17" src="../assets/audio/Fate_stay night [Réalta Nua] (PS Vita) OST - Theme of Tiger Dojo (2012).mp3"></audio>
+        <div class="custom-player">
+            <button id="playPause17">▶️</button>
+            <input type="range" id="progress17" value="0" step="1">
+            <input type="range" id="volume17" min="0" max="1" step="0.01" value="1">
+            <div class="audio-title-wrapper hidden">
+                <span class="audio-title" data-i18n="audio_title17"></span>
+            </div>
+        </div>
+    </div>
+
+    <p><b><i data-i18n="tiger_dojo_title"></i></b></p>
+
+    <p><b data-i18n="taiga_line1"></b></p>
+
+    <p><b data-i18n="illya_line1"></b></p>
+
+    <p><b data-i18n="taiga_line2"></b></p>
+
+    <p><b data-i18n="illya_line2"></b></p>
+
+    <p><b data-i18n="taiga_line3"></b></p>
+
+    <p><b data-i18n="illya_line3"></b></p>
+
+    <p><b data-i18n="taiga_line4"></b></p>
+
+    <p>
+        <b data-i18n="illya_line4a"></b>
+        <b><i data-i18n="illya_line4b"></i></b>
+        <b data-i18n="illya_line4c"></b>
+    </p>
+
+    <p><b data-i18n="taiga_line5"></b></p>
+    <p><b data-i18n="taiga_line5b"></b></p>
+    <p><b data-i18n="taiga_line5c"></b></p>
+
+    <p>
+        <b data-i18n="illya_line5a"></b>
+        <b><i data-i18n="illya_line5b"></i></b>
+        <b data-i18n="illya_line5c"></b>
+    </p>
+
+    <p><b data-i18n="taiga_line6"></b></p>
+
+    <p>
+        <b data-i18n="illya_line6a"></b>
+        <b><i data-i18n="illya_line6b"></i></b>
+        <b data-i18n="illya_line6c"></b>
+    </p>
+
+    <p><b data-i18n="taiga_line7"></b></p>
+
+    <p><b data-i18n="illya_line7"></b></p>
+
+    <p><b data-i18n="taiga_line8"></b></p>
+
+    <div id="DisVideo1" style="display:none;">
+        <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lYBQPh7f0U8?si=N-seeG6NTzC_RUHG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%;"></iframe>
+        </center>
+    </div>
+
+    <button type="button" id="btnID1" onclick="showContent('DisVideo1','btnID1')">
+        <span data-i18n="btn_show_image">Click Me</span>
+    </button>
+
+    <!-- === Navigation === -->
+
+    <p>
+        <center>
+            <a href="../Chapter_04/Chapitre_04.html"><span data-i18n="nav_prev"></span></a> <span data-i18n="nav_chapter_count"></span>
+            <!-- <a href="../Chapter_06/Chapitre_06.html"><span data-i18n="nav_next"></span></a> -->
+            <br><br>
+        </center>
+    </p>
+
+    <center>
+        <div style="border: blue solid 1px; max-width: 350px; width: 100%; padding: 8px; box-sizing: border-box;">
+            <span data-i18n="chapter_list"></span><br>
+
+            <select id="chap_select_fin" title="Chapter Navigation" name="chapter" style="margin-top: 5px;"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            </select>
+        </div>
+    </center>
+
+    </div><!-- /.chapter-container -->
+
+    <!-- FIN BLOC 17 -->
+
+</body>
+
+<script src="./../chapter/contr_chapter.js"></script>
+
+<script src="../js/widget.js"></script>
+<script src="../js/audio.js"></script>
+
+</html>
